@@ -1,0 +1,19 @@
+# Local credentials and deployment-specific access data
+**/arduino_secrets.h
+**/access_config.h
+
+# Arduino and PlatformIO build output
+**/build/
+**/.pio/
+**/.arduinoIDE/
+*.bin
+*.elf
+*.hex
+*.map
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

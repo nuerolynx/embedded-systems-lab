@@ -1,0 +1,3 @@
+#pragma once
+
+const String VALID_UID = "A1:B2:C3:D4";

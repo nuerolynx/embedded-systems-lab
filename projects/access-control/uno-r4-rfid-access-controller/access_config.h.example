@@ -1,0 +1,4 @@
+#pragma once
+
+const char* UID_USER1 = "A1:B2:C3:D4";
+const char* UID_USER2 = "";

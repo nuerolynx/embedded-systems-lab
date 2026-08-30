@@ -1,0 +1,39 @@
+name: Feature request
+description: Propose a focused, testable improvement
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      options:
+        - RFID access controller
+        - RFID + BLE door controller
+        - Eight-channel relay controller
+        - LED matrix NTP clock
+        - OLED logo animation
+        - Camera environment dashboard
+        - Bluetooth speaker
+        - Repository-wide
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or use case
+      description: Explain the need without including sensitive deployment information.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: safety
+    attributes:
+      label: Hardware, security, and compatibility considerations
+    validations:
+      required: true

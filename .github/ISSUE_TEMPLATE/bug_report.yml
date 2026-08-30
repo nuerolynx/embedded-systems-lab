@@ -1,0 +1,47 @@
+name: Bug report
+description: Report a reproducible problem in a documented hardware configuration
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include Wi-Fi credentials, card UIDs, private endpoints, or other sensitive deployment data.
+  - type: dropdown
+    id: project
+    attributes:
+      label: Project
+      options:
+        - RFID access controller
+        - RFID + BLE door controller
+        - Eight-channel relay controller
+        - LED matrix NTP clock
+        - OLED logo animation
+        - Camera environment dashboard
+        - Bluetooth speaker
+        - Repository documentation
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware and versions
+      description: Include board/revision, board package, libraries, power supply, and relevant peripherals.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction steps
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Sanitized logs or evidence
+      description: Remove credentials and identifying deployment details before posting.
