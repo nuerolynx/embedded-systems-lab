@@ -437,9 +437,9 @@ const char* PAGE_MAIN = R"HTML(
     </div>
 
     <div class="meta">
-      <div class="pill" id="ipPill">IP: …</div>
-      <div class="pill" id="timePill">Time: …</div>
-      <div class="pill" id="rssiPill">RSSI: …</div>
+      <div class="pill" id="ipPill">IP: ...</div>
+      <div class="pill" id="timePill">Time: ...</div>
+      <div class="pill" id="rssiPill">RSSI: ...</div>
     </div>
 
     <div class="divider"></div>
@@ -451,7 +451,7 @@ const char* PAGE_MAIN = R"HTML(
       <button onclick="refresh()">Refresh</button>
     </div>
 
-    <div class="small" id="status">Loading…</div>
+    <div class="small" id="status">Loading...</div>
   </div>
 
 <script>
@@ -470,7 +470,7 @@ const char* PAGE_MAIN = R"HTML(
     row.innerHTML = `
       <div class="left">
         <div class="ch">${names[i]}</div>
-        <div class="hint">Toggle = latch • Pulse = momentary • Schedules may force ON</div>
+        <div class="hint">Toggle = latch | Pulse = momentary | Schedules may force ON</div>
       </div>
       <div class="right">
         <button class="pulseBtn" onclick="pulse(${ch})">PULSE</button>
@@ -489,7 +489,7 @@ const char* PAGE_MAIN = R"HTML(
   }
 
   async function toggleRelay(ch, on) {
-    statusDiv.textContent = `Setting ${names[ch-1]} ${on ? 'ON' : 'OFF'}…`;
+    statusDiv.textContent = `Setting ${names[ch-1]} ${on ? 'ON' : 'OFF'}...`;
     try {
       const r = await fetch(`/api/set?ch=${ch}&on=${on ? 1 : 0}`);
       statusDiv.textContent = await r.text();
@@ -499,7 +499,7 @@ const char* PAGE_MAIN = R"HTML(
   }
 
   async function pulse(ch) {
-    statusDiv.textContent = `Pulsing ${names[ch-1]}…`;
+    statusDiv.textContent = `Pulsing ${names[ch-1]}...`;
     try {
       const r = await fetch(`/api/pulse?ch=${ch}`);
       statusDiv.textContent = await r.text();
@@ -510,7 +510,7 @@ const char* PAGE_MAIN = R"HTML(
   }
 
   async function setAll(on) {
-    statusDiv.textContent = `Setting ALL ${on ? 'ON' : 'OFF'}…`;
+    statusDiv.textContent = `Setting ALL ${on ? 'ON' : 'OFF'}...`;
     try {
       await fetch(`/api/all?on=${on ? 1 : 0}`);
       await refresh();
@@ -550,7 +550,7 @@ const char* PAGE_MAIN = R"HTML(
       const j = await r.json();
       ipPill.textContent = `IP: ${j.ip}`;
       rssiPill.textContent = `RSSI: ${j.rssi}`;
-      timePill.textContent = j.timeValid ? `Time: OK` : `Time: NTP…`;
+      timePill.textContent = j.timeValid ? `Time: OK` : `Time: NTP...`;
     } catch {
       ipPill.textContent = 'IP: ?';
       timePill.textContent = 'Time: ?';
@@ -692,7 +692,7 @@ const char* PAGE_CONFIG = R"HTML(
 
     </div>
 
-    <div class="status" id="status">Loading…</div>
+    <div class="status" id="status">Loading...</div>
   </div>
 
 <script>
@@ -759,7 +759,7 @@ const char* PAGE_CONFIG = R"HTML(
   }
 
   async function loadAll(){
-    statusDiv.textContent = 'Loading…';
+    statusDiv.textContent = 'Loading...';
     const n = await (await api('/api/names')).json();
     names = n.names;
 
@@ -837,7 +837,7 @@ const char* PAGE_CONFIG = R"HTML(
 
 // ------------------- WiFi connect with loud IP -------------------
 void connectWiFiWithLoudIP() {
-  Serial.println("Connecting to WiFi…");
+  Serial.println("Connecting to WiFi...");
 
   if (WiFi.status() == WL_NO_MODULE) {
     Serial.println("ERROR: WiFi module not detected. Tools > Board must be UNO R4 WiFi.");

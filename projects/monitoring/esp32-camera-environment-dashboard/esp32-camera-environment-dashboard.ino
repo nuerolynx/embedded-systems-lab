@@ -19,7 +19,7 @@ static const char* _STREAM_CONTENT_TYPE = "multipart/x-mixed-replace;boundary=" 
 static const char* _STREAM_BOUNDARY     = "\r\n--" PART_BOUNDARY "\r\n";
 static const char* _STREAM_PART         = "Content-Type: image/jpeg\r\nContent-Length: %u\r\n\r\n";
 
-// ===== SunFounder Camera Extension (your working pin map) =====
+// ===== SunFounder Camera Extension (validated pin map) =====
 #define PWDN_GPIO_NUM     32
 #define RESET_GPIO_NUM    -1
 #define XCLK_GPIO_NUM      0
@@ -271,7 +271,7 @@ canvas{width:100%; height:110px; display:block;}
       <h1>ESP32 Env Panel</h1>
       <div class="sub">Camera + Temp/Humidity + History (No scroll)</div>
     </div>
-    <div class="pill"><span id="dot" class="dot"></span><span id="status">Connecting…</span></div>
+    <div class="pill"><span id="dot" class="dot"></span><span id="status">Connecting...</span></div>
   </div>
 
   <!-- Camera card -->
@@ -492,7 +492,7 @@ async function refresh(){
   }
 }
 
-setStatus(null,"Connecting…");
+setStatus(null,"Connecting...");
 setCamSrc();
 drawChart();
 refresh();

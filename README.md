@@ -1,8 +1,8 @@
 # Embedded Systems Lab
 
-A curated collection of practical Arduino UNO R4 WiFi and ESP32 prototypes spanning access control, automation, displays, environmental monitoring, and Bluetooth audio.
+A set of Arduino UNO R4 WiFi and ESP32 prototypes for access control, automation, displays, environmental monitoring, and Bluetooth audio.
 
-The repository emphasizes complete, inspectable examples: hardware pin maps live beside the code, deployment values stay outside source control, and each project documents its current maturity and safety boundaries.
+Each project stands on its own and includes source code, hardware notes, dependencies, configuration steps, and known limitations. Network credentials and other deployment values stay outside source control.
 
 ## Projects
 
@@ -39,7 +39,7 @@ Read [Hardware safety](docs/hardware-safety.md), [Security policy](SECURITY.md),
 
 ## Repository history
 
-This is the reviewed, public-facing collection. Uncurated experiments, duplicate drafts, generated artifacts, and files containing deployment-specific values are intentionally excluded.
+This repository contains the projects selected for public reference. Older experiments, duplicate drafts, generated build artifacts, and deployment-specific values are kept out of it.
 
 ## License
 
