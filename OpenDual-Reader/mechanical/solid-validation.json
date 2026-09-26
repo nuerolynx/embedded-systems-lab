@@ -1,0 +1,61 @@
+{
+  "tool": "OpenSCAD 2021.01 portable / official release",
+  "source": "https://github.com/openscad/openscad/releases/tag/openscad-2021.01",
+  "verification": "CGAL simple solids; exported STL edge topology and bounds checked; exploded PNG visually inspected. No physical fit, tolerance or complete assembly-interference validation.",
+  "meshes": [
+    {
+      "file": "front-cover.stl",
+      "sha256": "b34a631e642a9ecff7913dd4f465b69b351e6043200895adcb2bd4b36741524a",
+      "triangles": 3920,
+      "bounds_mm": [
+        [
+          0.0,
+          40.7
+        ],
+        [
+          0.0,
+          131.2
+        ],
+        [
+          2.0,
+          17.6
+        ]
+      ],
+      "dimensions_mm": [
+        40.7,
+        131.2,
+        15.6
+      ],
+      "signed_volume_mm3": 16609.342,
+      "boundary_or_nonmanifold_edges": 0,
+      "connected_vertex_components": 1
+    },
+    {
+      "file": "backplate.stl",
+      "sha256": "44421789bacdfcda640763bf06e39e016ce5eebd757fd92dc0a936d76b628886",
+      "triangles": 3716,
+      "bounds_mm": [
+        [
+          0.0,
+          40.7
+        ],
+        [
+          0.0,
+          131.2
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ],
+      "dimensions_mm": [
+        40.7,
+        131.2,
+        8.0
+      ],
+      "signed_volume_mm3": 10968.477,
+      "boundary_or_nonmanifold_edges": 0,
+      "connected_vertex_components": 1
+    }
+  ]
+}

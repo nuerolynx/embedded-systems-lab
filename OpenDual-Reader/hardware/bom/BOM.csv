@@ -1,0 +1,72 @@
+Reference,Value,Manufacturer part number,Footprint,Status / notes
+J1,PANEL CABLE,PCB solder lands / 6 conductors,OpenDual:Solder6,"1 +9..16V,2 GND,3 A+,4 B-,5 D0,6 D1"
+F1,0.75A PTC,1812L075/33DR,OpenDual:Fuse_1812_4532Metric,Prototype selection; see validation matrix
+D1,B340A-13-F,B340A-13-F,OpenDual:D_SMA,40V Schottky reverse polarity series diode
+D2,SMBJ18A,SMBJ18A,OpenDual:D_SMB,18V standoff; 29.2V clamp at rated pulse
+C1,10u/50V,GRM32ER71H106KA12L,OpenDual:C_1210_3225Metric,Prototype selection; see validation matrix
+C2,100n/50V,GRM188R71H104KA93D,OpenDual:C_0603_1608Metric,Prototype selection; see validation matrix
+U1,TSR 1-2433,TSR 1-2433,OpenDual:Converter_DCDC_TRACO_TSR-1_THT,Prototype selection; see validation matrix
+U2,TSR 1-2450,TSR 1-2450,OpenDual:Converter_DCDC_TRACO_TSR-1_THT,Prototype selection; see validation matrix
+C3,10u/10V,GRM188R61A106KE69D,OpenDual:C_0603_1608Metric,Prototype selection; see validation matrix
+C4,10u/10V,GRM188R61A106KE69D,OpenDual:C_0603_1608Metric,Prototype selection; see validation matrix
+U3,ESP32-WROOM-32E-N4,ESP32-WROOM-32E-N4,OpenDual:ESP32-WROOM-32E,Prototype selection; see validation matrix
+R1,10k,RC0603FR-0710KL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+C5,10u/10V,GRM188R61A106KE69D,OpenDual:C_0603_1608Metric,Prototype selection; see validation matrix
+C6,100n/50V,GRM188R71H104KA93D,OpenDual:C_0603_1608Metric,Prototype selection; see validation matrix
+C7,1u/10V,GRM188R61A105KA61D,OpenDual:C_0603_1608Metric,Prototype selection; see validation matrix
+R2,10k,RC0603FR-0710KL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+JP1,RESET short,PCB service shorting pads,OpenDual:Solder2,Prototype selection; see validation matrix
+JP2,BOOT short,PCB service shorting pads,OpenDual:Solder2,Prototype selection; see validation matrix
+J2,PROGRAM 3.3V LOGIC,PCB solder lands / pogo fixture,OpenDual:Solder6,3V3 pin is sense-only; do not inject external power
+U4,ID-12LA-HE,ID-12LA-HE,OpenDual:ID12LA_HE,Internal antenna. Pin9 MCU UART; 3/4 do not connect; sample verify before fab
+R3,10k,RC0603FR-0710KL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+C8,100n/50V,GRM188R71H104KA93D,OpenDual:C_0603_1608Metric,Prototype selection; see validation matrix
+C9,10u/10V,GRM188R61A106KE69D,OpenDual:C_0603_1608Metric,Prototype selection; see validation matrix
+JP3,LF reset short,PCB service shorting pads,OpenDual:Solder2,Prototype selection; see validation matrix
+J3,PN5321 MINI V2 HARNESS,PCB solder lands; module SKU NFC_EX_MINI,OpenDual:Solder7,Map to module MX1.25 pins1..7. Supplied harness identity/continuity must be verified
+R4,10k,RC0603FR-0710KL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+R5,10k,RC0603FR-0710KL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+C10,10u/10V,GRM188R61A106KE69D,OpenDual:C_0603_1608Metric,Prototype selection; see validation matrix
+C11,100n/50V,GRM188R71H104KA93D,OpenDual:C_0603_1608Metric,Prototype selection; see validation matrix
+U5,THVD2410DR,THVD2410DR,OpenDual:SOIC-8_3.9x4.9mm_P1.27mm,Prototype selection; see validation matrix
+R6,100k,RC0603FR-07100KL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+C12,100n/50V,GRM188R71H104KA93D,OpenDual:C_0603_1608Metric,Prototype selection; see validation matrix
+R7,120,CRCW1206120RFKEAHP,OpenDual:R_1206_3216Metric,120ohm termination >=0.5W; inspect thermal conditions
+JP4,TERM CLOSE AT END,PCB solder jumper / default OPEN,OpenDual:Solder2,Prototype selection; see validation matrix
+D3,SM712-02HTG,SM712-02HTG,OpenDual:SOT-23,Prototype selection; see validation matrix
+R8,2.2k,RC0603FR-072K2L,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+R9,100k,RC0603FR-07100KL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+Q1,MMBT3904LT1G,MMBT3904LT1G,OpenDual:SOT-23,Prototype selection; see validation matrix
+R10,47,RC0603FR-0747RL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+D4,SMBJ15A,SMBJ15A,OpenDual:D_SMB,"Littelfuse unidirectional TVS: cathode to panel line, anode GND"
+R11,2.2k,RC0603FR-072K2L,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+R12,100k,RC0603FR-07100KL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+Q2,MMBT3904LT1G,MMBT3904LT1G,OpenDual:SOT-23,Prototype selection; see validation matrix
+R13,47,RC0603FR-0747RL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+D5,SMBJ15A,SMBJ15A,OpenDual:D_SMB,"Littelfuse unidirectional TVS: cathode to panel line, anode GND"
+D6,RGB 150141M173100,150141M173100,OpenDual:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100,Prototype selection; see validation matrix
+R14,2.2k,RC0603FR-072K2L,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+R15,100k,RC0603FR-07100KL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+Q3,MMBT3904LT1G,MMBT3904LT1G,OpenDual:SOT-23,Prototype selection; see validation matrix
+R16,330,RC0603FR-07330RL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+R17,2.2k,RC0603FR-072K2L,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+R18,100k,RC0603FR-07100KL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+Q4,MMBT3904LT1G,MMBT3904LT1G,OpenDual:SOT-23,Prototype selection; see validation matrix
+R19,220,RC0603FR-07220RL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+R20,2.2k,RC0603FR-072K2L,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+R21,100k,RC0603FR-07100KL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+Q5,MMBT3904LT1G,MMBT3904LT1G,OpenDual:SOT-23,Prototype selection; see validation matrix
+R22,220,RC0603FR-07220RL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+R23,2.2k,RC0603FR-072K2L,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+R24,2.2k,RC0603FR-072K2L,OpenDual:R_0603_1608Metric,Strong pulldown overrides GPIO14 reset weak pullup
+Q6,MMBT3904LT1G,MMBT3904LT1G,OpenDual:SOT-23,Prototype selection; see validation matrix
+R25,1k,RC0603FR-071KL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+BZ1,PKMCS0909E4000-R1,PKMCS0909E4000-R1,OpenDual:Buzzer_Murata_PKMCS0909E,Passive piezo 4kHz / provisional backside fit
+J4,TAMPER CASE LOOP,PCB solder lands / remote KSC223G LFG assembly,OpenDual:Solder2,"Remote Y31B13136FPLFG SPST-NO plus 1k series resistor; pressed closed, released open; carrier and actuator fit unresolved"
+R26,10k,RC0603FR-0710KL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+C13,100n/50V,GRM188R71H104KA93D,OpenDual:C_0603_1608Metric,Prototype selection; see validation matrix
+R27,100k,RC0603FR-07100KL,OpenDual:R_0603_1608Metric,Prototype selection; see validation matrix
+J5,DEMO RELAY LOGIC,PCB solder lands,OpenDual:Solder3,Logic only3.3V. No coil/lock supply on reader.
+RF1,HF module + supplied ferrite antenna,ELECHOUSE NFC_EX_MINI / hardware V2,Off-board module / harness to J3,Purchased closed-ROM PN5321 MINI; revision must be verified
+SW1,Remote tamper SPST-NO gold tactile,Y31B13136FPLFG,Remote carrier / harness to J4,C&K KSC223G LFG; pressed closed; 1k series resistor required; carrier and preload unresolved
+RT1,1k remote tamper series resistor,RC0603FR-071KL,Remote carrier / 0603,Yageo 1%; limits C13 discharge; install between J4.1 and SW1

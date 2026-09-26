@@ -1,0 +1,31 @@
+{
+  "revision": "OpenDual Reader Rev A engineering prototype",
+  "module": "ESP32-WROOM-32E-N4",
+  "logic_volts": 3.3,
+  "pins": [
+    {"name":"PROGRAM_TX","gpio":1,"net":"PROG_TX","direction":"out","startup":"UART0 boot log","function":"3.3 V UART programming TX"},
+    {"name":"PROGRAM_RX","gpio":3,"net":"PROG_RX","direction":"in","startup":"input","function":"3.3 V UART programming RX"},
+    {"name":"RS485_TX","gpio":26,"net":"RS485_TX","direction":"out","startup":"high after UART setup","function":"UART1 TX to transceiver DI"},
+    {"name":"RS485_RX","gpio":27,"net":"RS485_RX","direction":"in","startup":"input","function":"UART1 RX from transceiver RO"},
+    {"name":"RS485_DIR","gpio":4,"net":"RS485_DIR","direction":"out","startup":"external pulldown; receive","function":"UART1 RTS automatic half duplex; DE and /RE"},
+    {"name":"LF_RX","gpio":34,"net":"LF_RX_3V3","direction":"in","startup":"input-only","function":"UART2 RX 9600 8N1 from ID-12LA-HE pin9 TTL UART; verify idle-high on bench"},
+    {"name":"HF_SCK","gpio":18,"net":"HF_SCK","direction":"out","startup":"low","function":"PN532 SPI clock"},
+    {"name":"HF_MISO","gpio":19,"net":"HF_MISO","direction":"in","startup":"input","function":"PN532 SPI data to host"},
+    {"name":"HF_MOSI","gpio":23,"net":"HF_MOSI","direction":"out","startup":"low","function":"PN532 SPI data from host"},
+    {"name":"HF_CS","gpio":21,"net":"HF_CS_N","direction":"out","startup":"external pullup; inactive high","function":"PN532 SPI select"},
+    {"name":"HF_RESET","gpio":22,"net":"HF_RST_N","direction":"open-drain","startup":"released; module pullup","function":"PN532 reset active low"},
+    {"name":"WIEGAND_D0","gpio":16,"net":"WG_D0_GATE","direction":"out","startup":"external pulldown; transistor off","function":"high enables D0 sink transistor"},
+    {"name":"WIEGAND_D1","gpio":17,"net":"WG_D1_GATE","direction":"out","startup":"external pulldown; transistor off","function":"high enables D1 sink transistor"},
+    {"name":"LED_R","gpio":25,"net":"LED_R_GATE","direction":"out","startup":"external pulldown; off","function":"high enables red LED driver"},
+    {"name":"LED_G","gpio":33,"net":"LED_G_GATE","direction":"out","startup":"external pulldown; off","function":"high enables green LED driver"},
+    {"name":"LED_B","gpio":13,"net":"LED_B_GATE","direction":"out","startup":"external pulldown; off","function":"high enables blue LED driver"},
+    {"name":"BUZZER","gpio":14,"net":"BUZZER_GATE","direction":"out","startup":"external pulldown; off","function":"4kHz PWM enables passive piezo driver"},
+    {"name":"DEMO_RELAY","gpio":32,"net":"RELAY_EN","direction":"out","startup":"external pulldown; off","function":"logic only to separate demonstration relay board"},
+    {"name":"TAMPER","gpio":36,"net":"TAMPER_N","direction":"in","startup":"external pullup required","function":"assembled-closed to GND through remote 1k and KSC223G LFG SPST-NO; HIGH/open = tamper"}
+  ],
+  "unassigned": [0,2,5,12,15,35,39],
+  "restrictions": ["GPIO0/2/5/12/15 are strap pins and are not application outputs.","GPIO6..11 connect flash and are not available.","GPIO34/35/36/39 are input-only and have no internal pullups.","LF reset is a manual jumper, not an MCU signal; no firmware interleaving in Rev A.","No USB interface on reader PCB."]
+}
+
+
+

@@ -1,0 +1,184 @@
+[
+  {
+    "ref": "K1",
+    "value": "G5V-1 DC12",
+    "alias": "Relay",
+    "nets": {
+      "1": "CONTACT_NC",
+      "2": "+12V_EXT",
+      "5": "CONTACT_COM",
+      "6": "CONTACT_COM",
+      "9": "COIL_LOW",
+      "10": "CONTACT_NO"
+    },
+    "xy": [
+      144.78,
+      64.77
+    ],
+    "fp": "Relay_THT:Relay_SPDT_Omron_G5V-1",
+    "bxy": [
+      56,
+      57
+    ],
+    "mpn": "G5V-1 DC12",
+    "mfr": "Omron",
+    "url": "https://components.omron.com/us-en/system/files/2023-01/datasheet_pdf/K048-E1.pdf",
+    "rot": 0
+  },
+  {
+    "ref": "Q1",
+    "value": "MMBT3904LT1G",
+    "alias": "NPN",
+    "nets": {
+      "1": "BASE",
+      "2": "GND",
+      "3": "COIL_LOW"
+    },
+    "xy": [
+      105.41,
+      85.09
+    ],
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "bxy": [
+      65,
+      64
+    ],
+    "mpn": "MMBT3904LT1G",
+    "mfr": "onsemi",
+    "url": "https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf",
+    "rot": 0
+  },
+  {
+    "ref": "D1",
+    "value": "1N4148W-7-F",
+    "alias": "D",
+    "nets": {
+      "1": "+12V_EXT",
+      "2": "COIL_LOW"
+    },
+    "xy": [
+      105.41,
+      54.61
+    ],
+    "fp": "Diode_SMD:D_SOD-123",
+    "bxy": [
+      59,
+      52.5
+    ],
+    "mpn": "1N4148W-7-F",
+    "mfr": "Diodes Incorporated",
+    "url": "https://www.diodes.com/datasheet/download/1N4148W.pdf",
+    "rot": 0
+  },
+  {
+    "ref": "R1",
+    "value": "1k",
+    "alias": "R",
+    "nets": {
+      "1": "RELAY_EN",
+      "2": "BASE"
+    },
+    "xy": [
+      64.77,
+      80.01
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "bxy": [
+      65,
+      59.5
+    ],
+    "mpn": "RC0603FR-071KL",
+    "mfr": "Yageo",
+    "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL",
+    "rot": -90
+  },
+  {
+    "ref": "R2",
+    "value": "100k",
+    "alias": "R",
+    "nets": {
+      "1": "BASE",
+      "2": "GND"
+    },
+    "xy": [
+      80.01,
+      105.41
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "bxy": [
+      67.8,
+      65.8
+    ],
+    "mpn": "RC0603FR-07100KL",
+    "mfr": "Yageo",
+    "url": "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL",
+    "rot": -90
+  },
+  {
+    "ref": "J1",
+    "value": "LOGIC FROM READER J5",
+    "alias": "J2",
+    "nets": {
+      "1": "GND",
+      "2": "RELAY_EN"
+    },
+    "xy": [
+      44.45,
+      54.61
+    ],
+    "fp": "RelayDemo:Solder2",
+    "bxy": [
+      66,
+      52
+    ],
+    "mpn": "PCB solder holes",
+    "mfr": "PCB feature",
+    "url": "",
+    "rot": 0
+  },
+  {
+    "ref": "J2",
+    "value": "REGULATED 12V INPUT",
+    "alias": "J2",
+    "nets": {
+      "1": "+12V_EXT",
+      "2": "GND"
+    },
+    "xy": [
+      44.45,
+      115.57000000000001
+    ],
+    "fp": "RelayDemo:Solder2",
+    "bxy": [
+      51.8,
+      52
+    ],
+    "mpn": "PCB solder holes",
+    "mfr": "PCB feature",
+    "url": "",
+    "rot": 0
+  },
+  {
+    "ref": "J3",
+    "value": "NC / COM / NO",
+    "alias": "J3",
+    "nets": {
+      "1": "CONTACT_NC",
+      "2": "CONTACT_COM",
+      "3": "CONTACT_NO"
+    },
+    "xy": [
+      195.58,
+      64.77
+    ],
+    "fp": "RelayDemo:Solder3",
+    "bxy": [
+      54,
+      75
+    ],
+    "mpn": "PCB solder holes",
+    "mfr": "PCB feature",
+    "url": "",
+    "rot": 0
+  }
+]

@@ -1,0 +1,58 @@
+{
+  "generated": "2026-09-26T15:37:51",
+  "main_board_sha256": "5ff5e8ae8be66ee99d0ea5c1a62f106833bf3e868df28a2ebfa99830e3feec8e",
+  "kicad": "10.0.6",
+  "footprints": 74,
+  "track_segments": 1712,
+  "vias": 134,
+  "main_drc_violations": 0,
+  "main_unconnected_items": 0,
+  "main_schematic_parity_issues": 0,
+  "contract_pass": true,
+  "missing_models": [],
+  "bench_tested": false,
+  "rf_measured": false,
+  "panel_interoperability_tested": false,
+  "power_width_audit": {
+    "VIN12": {
+      "widths_mm": [
+        0.3,
+        0.5
+      ],
+      "total_length_mm": 13.591,
+      "pass_minimum_0_30_mm": true
+    },
+    "VIN_FUSED": {
+      "widths_mm": [
+        0.3,
+        0.5
+      ],
+      "total_length_mm": 21.63,
+      "pass_minimum_0_30_mm": true
+    },
+    "VIN_PROT": {
+      "widths_mm": [
+        0.3,
+        0.5
+      ],
+      "total_length_mm": 108.287,
+      "pass_minimum_0_30_mm": true
+    },
+    "+5V": {
+      "widths_mm": [
+        0.3,
+        0.5
+      ],
+      "total_length_mm": 190.918,
+      "pass_minimum_0_30_mm": true
+    },
+    "+3V3": {
+      "widths_mm": [
+        0.3,
+        0.5
+      ],
+      "total_length_mm": 234.319,
+      "pass_minimum_0_30_mm": true
+    }
+  }
+}

@@ -1,0 +1,11 @@
+*.kicad_prl
+*.lck
+~*
+*-backups/
+GUI-before-*
+.history/
+__pycache__/
+*.pyc
+.pio/
+.venv/
+.env

@@ -1,0 +1,1738 @@
+[
+  {
+    "ref": "J1",
+    "value": "PANEL CABLE",
+    "model": "CONN6",
+    "nets": {
+      "1": "VIN12",
+      "2": "GND",
+      "3": "RS485_A",
+      "4": "RS485_B",
+      "5": "WIEGAND_D0",
+      "6": "WIEGAND_D1"
+    },
+    "page": "power",
+    "pos": [
+      50,
+      62
+    ],
+    "fp": "OpenDual:Solder6",
+    "xy": [
+      105,
+      160
+    ],
+    "mpn": "PCB solder lands / 6 conductors",
+    "note": "1 +9..16V,2 GND,3 A+,4 B-,5 D0,6 D1",
+    "rot": 0,
+    "side": "F",
+    "uuid": "4465c8c2-0494-5b7d-8e3a-5e331f37b1a6"
+  },
+  {
+    "ref": "F1",
+    "value": "0.75A PTC",
+    "model": "FUSE",
+    "nets": {
+      "1": "VIN12",
+      "2": "VIN_FUSED"
+    },
+    "page": "power",
+    "pos": [
+      105,
+      54
+    ],
+    "fp": "Fuse:Fuse_1812_4532Metric",
+    "xy": [
+      107,
+      154
+    ],
+    "mpn": "1812L075/33DR",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "b9461b5f-6629-508f-ad0c-8b510052a3a9"
+  },
+  {
+    "ref": "D1",
+    "value": "B340A-13-F",
+    "model": "DIODE",
+    "nets": {
+      "1": "VIN_PROT",
+      "2": "VIN_FUSED"
+    },
+    "page": "power",
+    "pos": [
+      162,
+      54
+    ],
+    "fp": "Diode_SMD:D_SMA",
+    "xy": [
+      113,
+      153
+    ],
+    "mpn": "B340A-13-F",
+    "note": "40V Schottky reverse polarity series diode",
+    "rot": 0,
+    "side": "F",
+    "uuid": "c1fe1d64-1282-5605-b81a-f1e710dbdeab"
+  },
+  {
+    "ref": "D2",
+    "value": "SMBJ18A",
+    "model": "DIODE",
+    "nets": {
+      "1": "VIN_PROT",
+      "2": "GND"
+    },
+    "page": "power",
+    "pos": [
+      226,
+      54
+    ],
+    "fp": "Diode_SMD:D_SMB",
+    "xy": [
+      118,
+      156
+    ],
+    "mpn": "SMBJ18A",
+    "note": "18V standoff; 29.2V clamp at rated pulse",
+    "rot": 0,
+    "side": "F",
+    "uuid": "6d929775-1959-50f6-9c55-6767bbd1e9fb"
+  },
+  {
+    "ref": "C1",
+    "value": "10u/50V",
+    "model": "C",
+    "nets": {
+      "1": "VIN_PROT",
+      "2": "GND"
+    },
+    "page": "power",
+    "pos": [
+      285,
+      54
+    ],
+    "fp": "Capacitor_SMD:C_1210_3225Metric",
+    "xy": [
+      123,
+      155
+    ],
+    "mpn": "GRM32ER71H106KA12L",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "1dbea8b8-1051-541c-9bb0-2a0114922a52"
+  },
+  {
+    "ref": "C2",
+    "value": "100n/50V",
+    "model": "C",
+    "nets": {
+      "1": "VIN_PROT",
+      "2": "GND"
+    },
+    "page": "power",
+    "pos": [
+      350,
+      54
+    ],
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      124,
+      151
+    ],
+    "mpn": "GRM188R71H104KA93D",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "2ebc1ffe-d2a7-559b-912f-37fa644b0796"
+  },
+  {
+    "ref": "U1",
+    "value": "TSR 1-2433",
+    "model": "TSR",
+    "nets": {
+      "1": "VIN_PROT",
+      "2": "GND",
+      "3": "+3V3"
+    },
+    "page": "power",
+    "pos": [
+      70,
+      127
+    ],
+    "fp": "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT",
+    "xy": [
+      106,
+      155.5
+    ],
+    "mpn": "TSR 1-2433",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "91445f4d-949f-5930-a1d3-98b402cb6a59"
+  },
+  {
+    "ref": "U2",
+    "value": "TSR 1-2450",
+    "model": "TSR",
+    "nets": {
+      "1": "VIN_PROT",
+      "2": "GND",
+      "3": "+5V"
+    },
+    "page": "power",
+    "pos": [
+      210,
+      127
+    ],
+    "fp": "Converter_DCDC:Converter_DCDC_TRACO_TSR-1_THT",
+    "xy": [
+      123,
+      155.5
+    ],
+    "mpn": "TSR 1-2450",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "aaea0fce-9736-5ff9-b080-3882659b2699"
+  },
+  {
+    "ref": "C3",
+    "value": "10u/10V",
+    "model": "C",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "page": "power",
+    "pos": [
+      126,
+      127
+    ],
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      112,
+      144
+    ],
+    "mpn": "GRM188R61A106KE69D",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "fb7af830-12db-5dfe-bb0d-baa364831f04"
+  },
+  {
+    "ref": "C4",
+    "value": "10u/10V",
+    "model": "C",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    },
+    "page": "power",
+    "pos": [
+      269,
+      127
+    ],
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      128,
+      143
+    ],
+    "mpn": "GRM188R61A106KE69D",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "b236982c-5f5b-5fd6-b3a9-b09f6d06c3af"
+  },
+  {
+    "ref": "PF1",
+    "value": "VIN_PROT",
+    "model": "FLAG",
+    "nets": {
+      "1": "VIN_PROT"
+    },
+    "page": "power",
+    "pos": [
+      70,
+      180
+    ],
+    "fp": "",
+    "xy": [
+      0,
+      0
+    ],
+    "mpn": "VIN_PROT",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "56e210c4-0de3-502c-ad17-ef101c7ab105"
+  },
+  {
+    "ref": "PF2",
+    "value": "GND",
+    "model": "FLAG",
+    "nets": {
+      "1": "GND"
+    },
+    "page": "power",
+    "pos": [
+      180,
+      180
+    ],
+    "fp": "",
+    "xy": [
+      0,
+      0
+    ],
+    "mpn": "GND",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "beee3a1b-9d07-575a-a61f-36cc10524ab2"
+  },
+  {
+    "ref": "U3",
+    "value": "ESP32-WROOM-32E-N4",
+    "model": "ESP32",
+    "nets": {
+      "1": "GND",
+      "2": "+3V3",
+      "3": "ESP_EN",
+      "4": "TAMPER_N",
+      "6": "LF_RX_3V3",
+      "8": "RELAY_EN",
+      "9": "LED_G_GATE",
+      "10": "LED_R_GATE",
+      "11": "RS485_TX",
+      "12": "RS485_RX",
+      "13": "BUZZER_GATE",
+      "15": "GND",
+      "16": "LED_B_GATE",
+      "25": "BOOT_N",
+      "26": "RS485_DIR",
+      "27": "WG_D0_GATE",
+      "28": "WG_D1_GATE",
+      "30": "HF_SCK",
+      "31": "HF_MISO",
+      "33": "HF_CS_N",
+      "34": "PROG_RX",
+      "35": "PROG_TX",
+      "36": "HF_RST_N",
+      "37": "HF_MOSI",
+      "38": "GND",
+      "39": "GND"
+    },
+    "page": "mcu",
+    "pos": [
+      94,
+      100
+    ],
+    "fp": "RF_Module:ESP32-WROOM-32E",
+    "xy": [
+      118,
+      63
+    ],
+    "mpn": "ESP32-WROOM-32E-N4",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "6d4b3d88-07d5-54c7-98b0-733b1741d983"
+  },
+  {
+    "ref": "R1",
+    "value": "10k",
+    "model": "R",
+    "nets": {
+      "1": "+3V3",
+      "2": "ESP_EN"
+    },
+    "page": "mcu",
+    "pos": [
+      187,
+      50
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      106,
+      67
+    ],
+    "mpn": "RC0603FR-0710KL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "a1f809e3-02b5-5e04-912a-a12aa4765f62"
+  },
+  {
+    "ref": "C5",
+    "value": "10u/10V",
+    "model": "C",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "page": "mcu",
+    "pos": [
+      249,
+      50
+    ],
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      106,
+      64
+    ],
+    "mpn": "GRM188R61A106KE69D",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "cfe74f1c-c930-5c4c-8cf3-4b20d0b970db"
+  },
+  {
+    "ref": "C6",
+    "value": "100n/50V",
+    "model": "C",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "page": "mcu",
+    "pos": [
+      312,
+      50
+    ],
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      106,
+      61
+    ],
+    "mpn": "GRM188R71H104KA93D",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "865a89f2-8406-5be8-82f1-0941a090fe2a"
+  },
+  {
+    "ref": "C7",
+    "value": "1u/10V",
+    "model": "C",
+    "nets": {
+      "1": "ESP_EN",
+      "2": "GND"
+    },
+    "page": "mcu",
+    "pos": [
+      187,
+      89
+    ],
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      106,
+      70
+    ],
+    "mpn": "GRM188R61A105KA61D",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "33ac4da4-98e9-5f55-ae07-43c86ae7cc22"
+  },
+  {
+    "ref": "R2",
+    "value": "10k",
+    "model": "R",
+    "nets": {
+      "1": "+3V3",
+      "2": "BOOT_N"
+    },
+    "page": "mcu",
+    "pos": [
+      249,
+      89
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      130,
+      71
+    ],
+    "mpn": "RC0603FR-0710KL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "03223077-e320-5fb5-8c69-4bf70c52db76"
+  },
+  {
+    "ref": "JP1",
+    "value": "RESET short",
+    "model": "CONN2",
+    "nets": {
+      "1": "ESP_EN",
+      "2": "GND"
+    },
+    "page": "mcu",
+    "pos": [
+      187,
+      130
+    ],
+    "fp": "OpenDual:Solder2",
+    "xy": [
+      103,
+      73
+    ],
+    "mpn": "PCB service shorting pads",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "bdab0ded-394c-54bf-a669-ca9ff71b3759"
+  },
+  {
+    "ref": "JP2",
+    "value": "BOOT short",
+    "model": "CONN2",
+    "nets": {
+      "1": "BOOT_N",
+      "2": "GND"
+    },
+    "page": "mcu",
+    "pos": [
+      249,
+      130
+    ],
+    "fp": "OpenDual:Solder2",
+    "xy": [
+      130,
+      74
+    ],
+    "mpn": "PCB service shorting pads",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "14adb73e-585b-5600-83e7-8a5febbf59f5"
+  },
+  {
+    "ref": "J2",
+    "value": "PROGRAM 3.3V LOGIC",
+    "model": "CONN6",
+    "nets": {
+      "1": "GND",
+      "2": "PROG_TX",
+      "3": "PROG_RX",
+      "4": "ESP_EN",
+      "5": "BOOT_N",
+      "6": "+3V3"
+    },
+    "page": "mcu",
+    "pos": [
+      316,
+      137
+    ],
+    "fp": "OpenDual:Solder6",
+    "xy": [
+      110,
+      78
+    ],
+    "mpn": "PCB solder lands / pogo fixture",
+    "note": "3V3 pin is sense-only; do not inject external power",
+    "rot": 0,
+    "side": "F",
+    "uuid": "70c7c81d-1869-50d9-b179-45666cbc3c48"
+  },
+  {
+    "ref": "U4",
+    "value": "ID-12LA-HE",
+    "model": "ID12LA_HE",
+    "nets": {
+      "1": "GND",
+      "2": "LF_RESET_N",
+      "7": "GND",
+      "9": "LF_RX_3V3",
+      "11": "+3V3"
+    },
+    "page": "rf",
+    "pos": [
+      74,
+      78
+    ],
+    "fp": "OpenDual:ID12LA_HE",
+    "xy": [
+      118,
+      116
+    ],
+    "mpn": "ID-12LA-HE",
+    "note": "Internal antenna. Pin9 MCU UART; 3/4 do not connect; sample verify before fab",
+    "rot": 0,
+    "side": "F",
+    "uuid": "2b577abd-1e50-57e5-9b7e-89f31d6e8a26"
+  },
+  {
+    "ref": "R3",
+    "value": "10k",
+    "model": "R",
+    "nets": {
+      "1": "+3V3",
+      "2": "LF_RESET_N"
+    },
+    "page": "rf",
+    "pos": [
+      156,
+      54
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      132,
+      121
+    ],
+    "mpn": "RC0603FR-0710KL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "cd1126ff-15c4-5b93-b759-9f64c600c960"
+  },
+  {
+    "ref": "C8",
+    "value": "100n/50V",
+    "model": "C",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "page": "rf",
+    "pos": [
+      156,
+      93
+    ],
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      132,
+      124
+    ],
+    "mpn": "GRM188R71H104KA93D",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "a805c7f4-382f-57ed-a9a0-16f057ee80bf"
+  },
+  {
+    "ref": "C9",
+    "value": "10u/10V",
+    "model": "C",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "page": "rf",
+    "pos": [
+      220,
+      93
+    ],
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      132,
+      127
+    ],
+    "mpn": "GRM188R61A106KE69D",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "2d35c6a3-e553-5f09-9dcd-fab41311a998"
+  },
+  {
+    "ref": "JP3",
+    "value": "LF reset short",
+    "model": "CONN2",
+    "nets": {
+      "1": "LF_RESET_N",
+      "2": "GND"
+    },
+    "page": "rf",
+    "pos": [
+      220,
+      54
+    ],
+    "fp": "OpenDual:Solder2",
+    "xy": [
+      104,
+      124
+    ],
+    "mpn": "PCB service shorting pads",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "1f05483e-9aa7-5cf2-9ee4-fcd4ec529772"
+  },
+  {
+    "ref": "J3",
+    "value": "PN5321 MINI V2 HARNESS",
+    "model": "CONN7",
+    "nets": {
+      "1": "HF_CS_N",
+      "2": "HF_MOSI",
+      "3": "HF_MISO",
+      "4": "HF_SCK",
+      "5": "HF_RST_N",
+      "6": "+5V",
+      "7": "GND"
+    },
+    "page": "rf",
+    "pos": [
+      77,
+      167
+    ],
+    "fp": "OpenDual:Solder7",
+    "xy": [
+      111,
+      132
+    ],
+    "mpn": "PCB solder lands; module SKU NFC_EX_MINI",
+    "note": "Map to module MX1.25 pins1..7. Supplied harness identity/continuity must be verified",
+    "rot": 0,
+    "side": "F",
+    "uuid": "4b12e6d9-0c57-5ac0-a362-dd3d1cd747e6"
+  },
+  {
+    "ref": "R4",
+    "value": "10k",
+    "model": "R",
+    "nets": {
+      "1": "+3V3",
+      "2": "HF_CS_N"
+    },
+    "page": "rf",
+    "pos": [
+      161,
+      143
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      128,
+      77
+    ],
+    "mpn": "RC0603FR-0710KL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "53b5177c-c4cd-5c90-9372-523bee6bae2d"
+  },
+  {
+    "ref": "R5",
+    "value": "10k",
+    "model": "R",
+    "nets": {
+      "1": "+3V3",
+      "2": "HF_RST_N"
+    },
+    "page": "rf",
+    "pos": [
+      226,
+      143
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      131,
+      77
+    ],
+    "mpn": "RC0603FR-0710KL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "9ddc97a3-a239-5419-b477-345d9444d824"
+  },
+  {
+    "ref": "C10",
+    "value": "10u/10V",
+    "model": "C",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    },
+    "page": "rf",
+    "pos": [
+      161,
+      183
+    ],
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      131,
+      133
+    ],
+    "mpn": "GRM188R61A106KE69D",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "93c65238-cf2f-5776-890e-bf4696d35200"
+  },
+  {
+    "ref": "C11",
+    "value": "100n/50V",
+    "model": "C",
+    "nets": {
+      "1": "+5V",
+      "2": "GND"
+    },
+    "page": "rf",
+    "pos": [
+      226,
+      183
+    ],
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      131,
+      136
+    ],
+    "mpn": "GRM188R71H104KA93D",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "7a675cab-bf3b-5cd4-b44b-3ba3c17143fd"
+  },
+  {
+    "ref": "U5",
+    "value": "THVD2410DR",
+    "model": "RS485",
+    "nets": {
+      "1": "RS485_RX",
+      "2": "RS485_DIR",
+      "3": "RS485_DIR",
+      "4": "RS485_TX",
+      "5": "GND",
+      "6": "RS485_A",
+      "7": "RS485_B",
+      "8": "+3V3"
+    },
+    "page": "panel",
+    "pos": [
+      75,
+      71
+    ],
+    "fp": "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm",
+    "xy": [
+      129,
+      159
+    ],
+    "mpn": "THVD2410DR",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "58612608-a286-5dcd-8e39-c4f08c72a3a4"
+  },
+  {
+    "ref": "R6",
+    "value": "100k",
+    "model": "R",
+    "nets": {
+      "1": "RS485_DIR",
+      "2": "GND"
+    },
+    "page": "panel",
+    "pos": [
+      155,
+      51
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      132,
+      154
+    ],
+    "mpn": "RC0603FR-07100KL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "a0c48241-c6bd-57e6-97a5-aa330ab4aadb"
+  },
+  {
+    "ref": "C12",
+    "value": "100n/50V",
+    "model": "C",
+    "nets": {
+      "1": "+3V3",
+      "2": "GND"
+    },
+    "page": "panel",
+    "pos": [
+      219,
+      51
+    ],
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      129,
+      153
+    ],
+    "mpn": "GRM188R71H104KA93D",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "c9fdaab6-238e-5391-8679-b224811f4230"
+  },
+  {
+    "ref": "R7",
+    "value": "120",
+    "model": "R",
+    "nets": {
+      "1": "RS485_A",
+      "2": "TERM_SW"
+    },
+    "page": "panel",
+    "pos": [
+      155,
+      91
+    ],
+    "fp": "Resistor_SMD:R_1206_3216Metric",
+    "xy": [
+      129,
+      163
+    ],
+    "mpn": "CRCW1206120RFKEAHP",
+    "note": "120ohm termination >=0.5W; inspect thermal conditions",
+    "rot": 0,
+    "side": "F",
+    "uuid": "2838ea9b-ff23-5bbe-8700-a9e1f066a6d7"
+  },
+  {
+    "ref": "JP4",
+    "value": "TERM CLOSE AT END",
+    "model": "CONN2",
+    "nets": {
+      "1": "TERM_SW",
+      "2": "RS485_B"
+    },
+    "page": "panel",
+    "pos": [
+      219,
+      91
+    ],
+    "fp": "OpenDual:Solder2",
+    "xy": [
+      128,
+      166
+    ],
+    "mpn": "PCB solder jumper / default OPEN",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "ab814ad1-af13-55ba-ba30-f6feb87acf70"
+  },
+  {
+    "ref": "D3",
+    "value": "SM712-02HTG",
+    "model": "SM712",
+    "nets": {
+      "1": "RS485_A",
+      "2": "RS485_B",
+      "3": "GND"
+    },
+    "page": "panel",
+    "pos": [
+      297,
+      71
+    ],
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": [
+      123,
+      161
+    ],
+    "mpn": "SM712-02HTG",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "4a05fc0c-c07f-545b-af23-d103a6f065d3"
+  },
+  {
+    "ref": "R8",
+    "value": "2.2k",
+    "model": "R",
+    "nets": {
+      "1": "WG_D0_GATE",
+      "2": "WG0_BASE"
+    },
+    "page": "panel",
+    "pos": [
+      53,
+      150
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      104,
+      151
+    ],
+    "mpn": "RC0603FR-072K2L",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "3370bdb5-b131-5ef7-8026-360d85302c43"
+  },
+  {
+    "ref": "R9",
+    "value": "100k",
+    "model": "R",
+    "nets": {
+      "1": "WG0_BASE",
+      "2": "GND"
+    },
+    "page": "panel",
+    "pos": [
+      53,
+      170
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      104,
+      153
+    ],
+    "mpn": "RC0603FR-07100KL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "700cd8ba-273d-5070-95f4-6c49d7eaa1f7"
+  },
+  {
+    "ref": "Q1",
+    "value": "MMBT3904LT1G",
+    "model": "NPN",
+    "nets": {
+      "1": "WG0_BASE",
+      "2": "GND",
+      "3": "WG0_COL"
+    },
+    "page": "panel",
+    "pos": [
+      130,
+      159
+    ],
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": [
+      103,
+      156
+    ],
+    "mpn": "MMBT3904LT1G",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "04217f4d-a8f6-5005-a867-3bb39c73e656"
+  },
+  {
+    "ref": "R10",
+    "value": "47",
+    "model": "R",
+    "nets": {
+      "1": "WG0_COL",
+      "2": "WIEGAND_D0"
+    },
+    "page": "panel",
+    "pos": [
+      207,
+      150
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      107,
+      158
+    ],
+    "mpn": "RC0603FR-0747RL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "363e45fb-252e-52dd-a11f-cc6803bfecb0"
+  },
+  {
+    "ref": "D4",
+    "value": "SMBJ15A",
+    "model": "DIODE",
+    "nets": {
+      "1": "WIEGAND_D0",
+      "2": "GND"
+    },
+    "page": "panel",
+    "pos": [
+      279,
+      150
+    ],
+    "fp": "Diode_SMD:D_SMB",
+    "xy": [
+      108,
+      164
+    ],
+    "mpn": "SMBJ15A",
+    "note": "Littelfuse unidirectional TVS: cathode to panel line, anode GND",
+    "rot": 0,
+    "side": "F",
+    "uuid": "fef2fbc6-1caa-52fb-9ec1-f03784829a35"
+  },
+  {
+    "ref": "R11",
+    "value": "2.2k",
+    "model": "R",
+    "nets": {
+      "1": "WG_D1_GATE",
+      "2": "WG1_BASE"
+    },
+    "page": "panel",
+    "pos": [
+      53,
+      206
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      104,
+      156
+    ],
+    "mpn": "RC0603FR-072K2L",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "f899341d-0f64-5561-86f6-6d0c51883e5b"
+  },
+  {
+    "ref": "R12",
+    "value": "100k",
+    "model": "R",
+    "nets": {
+      "1": "WG1_BASE",
+      "2": "GND"
+    },
+    "page": "panel",
+    "pos": [
+      53,
+      226
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      104,
+      158
+    ],
+    "mpn": "RC0603FR-07100KL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "9c1992dc-5f0e-5ec4-878b-7985597cdadb"
+  },
+  {
+    "ref": "Q2",
+    "value": "MMBT3904LT1G",
+    "model": "NPN",
+    "nets": {
+      "1": "WG1_BASE",
+      "2": "GND",
+      "3": "WG1_COL"
+    },
+    "page": "panel",
+    "pos": [
+      130,
+      215
+    ],
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": [
+      103,
+      161
+    ],
+    "mpn": "MMBT3904LT1G",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "d2aa83f4-a7ea-5fae-a382-208e87d72127"
+  },
+  {
+    "ref": "R13",
+    "value": "47",
+    "model": "R",
+    "nets": {
+      "1": "WG1_COL",
+      "2": "WIEGAND_D1"
+    },
+    "page": "panel",
+    "pos": [
+      207,
+      206
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      107,
+      163
+    ],
+    "mpn": "RC0603FR-0747RL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "6ff8cad7-ec3c-5ec7-9626-3826598675ac"
+  },
+  {
+    "ref": "D5",
+    "value": "SMBJ15A",
+    "model": "DIODE",
+    "nets": {
+      "1": "WIEGAND_D1",
+      "2": "GND"
+    },
+    "page": "panel",
+    "pos": [
+      279,
+      206
+    ],
+    "fp": "Diode_SMD:D_SMB",
+    "xy": [
+      108,
+      170
+    ],
+    "mpn": "SMBJ15A",
+    "note": "Littelfuse unidirectional TVS: cathode to panel line, anode GND",
+    "rot": 0,
+    "side": "F",
+    "uuid": "54fac160-7ff4-5a28-a75c-4ec48da82213"
+  },
+  {
+    "ref": "D6",
+    "value": "RGB 150141M173100",
+    "model": "RGB",
+    "nets": {
+      "1": "+5V",
+      "2": "RGB_B_K",
+      "3": "RGB_R_K",
+      "4": "RGB_G_K"
+    },
+    "page": "ui",
+    "pos": [
+      64,
+      55
+    ],
+    "fp": "LED_SMD:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100",
+    "xy": [
+      118,
+      80
+    ],
+    "mpn": "150141M173100",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "bb35b208-4b09-5ce8-8834-7eda382e0a78"
+  },
+  {
+    "ref": "R14",
+    "value": "2.2k",
+    "model": "R",
+    "nets": {
+      "1": "LED_R_GATE",
+      "2": "LED_R_BASE"
+    },
+    "page": "ui",
+    "pos": [
+      144,
+      62
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      103,
+      65
+    ],
+    "mpn": "RC0603FR-072K2L",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "67af43e6-d261-5ff8-9369-114341393f82"
+  },
+  {
+    "ref": "R15",
+    "value": "100k",
+    "model": "R",
+    "nets": {
+      "1": "LED_R_BASE",
+      "2": "GND"
+    },
+    "page": "ui",
+    "pos": [
+      211,
+      62
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      103,
+      68
+    ],
+    "mpn": "RC0603FR-07100KL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "f63f8f49-0112-58ed-ac00-eaf03c50ca90"
+  },
+  {
+    "ref": "Q3",
+    "value": "MMBT3904LT1G",
+    "model": "NPN",
+    "nets": {
+      "1": "LED_R_BASE",
+      "2": "GND",
+      "3": "LED_R_COL"
+    },
+    "page": "ui",
+    "pos": [
+      281,
+      62
+    ],
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": [
+      103,
+      62
+    ],
+    "mpn": "MMBT3904LT1G",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "19cc4909-61a0-5032-887b-232a700ab3c8"
+  },
+  {
+    "ref": "R16",
+    "value": "330",
+    "model": "R",
+    "nets": {
+      "1": "RGB_R_K",
+      "2": "LED_R_COL"
+    },
+    "page": "ui",
+    "pos": [
+      356,
+      62
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      103,
+      71
+    ],
+    "mpn": "RC0603FR-07330RL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "ee54d5db-6fa6-5b81-bdc4-7e78cfac1f1e"
+  },
+  {
+    "ref": "R17",
+    "value": "2.2k",
+    "model": "R",
+    "nets": {
+      "1": "LED_G_GATE",
+      "2": "LED_G_BASE"
+    },
+    "page": "ui",
+    "pos": [
+      144,
+      108
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      130,
+      65
+    ],
+    "mpn": "RC0603FR-072K2L",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "6ec39633-c591-5482-a0d9-f2d6e82a2642"
+  },
+  {
+    "ref": "R18",
+    "value": "100k",
+    "model": "R",
+    "nets": {
+      "1": "LED_G_BASE",
+      "2": "GND"
+    },
+    "page": "ui",
+    "pos": [
+      211,
+      108
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      130,
+      68
+    ],
+    "mpn": "RC0603FR-07100KL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "ce473397-3f14-5b88-bd0b-df5892d42d53"
+  },
+  {
+    "ref": "Q4",
+    "value": "MMBT3904LT1G",
+    "model": "NPN",
+    "nets": {
+      "1": "LED_G_BASE",
+      "2": "GND",
+      "3": "LED_G_COL"
+    },
+    "page": "ui",
+    "pos": [
+      281,
+      108
+    ],
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": [
+      130,
+      62
+    ],
+    "mpn": "MMBT3904LT1G",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "732c3bb6-fdbb-5077-9109-b68ef529aad0"
+  },
+  {
+    "ref": "R19",
+    "value": "220",
+    "model": "R",
+    "nets": {
+      "1": "RGB_G_K",
+      "2": "LED_G_COL"
+    },
+    "page": "ui",
+    "pos": [
+      356,
+      108
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      130,
+      71
+    ],
+    "mpn": "RC0603FR-07220RL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "7df7659f-01a5-5872-9ed5-6aab2d6b4550"
+  },
+  {
+    "ref": "R20",
+    "value": "2.2k",
+    "model": "R",
+    "nets": {
+      "1": "LED_B_GATE",
+      "2": "LED_B_BASE"
+    },
+    "page": "ui",
+    "pos": [
+      144,
+      154
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      133,
+      65
+    ],
+    "mpn": "RC0603FR-072K2L",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "27815cd7-6aec-5212-923e-9e8bf1dfa2ad"
+  },
+  {
+    "ref": "R21",
+    "value": "100k",
+    "model": "R",
+    "nets": {
+      "1": "LED_B_BASE",
+      "2": "GND"
+    },
+    "page": "ui",
+    "pos": [
+      211,
+      154
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      133,
+      68
+    ],
+    "mpn": "RC0603FR-07100KL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "4e246214-a3b6-5c62-98e7-c1c2971b1ef7"
+  },
+  {
+    "ref": "Q5",
+    "value": "MMBT3904LT1G",
+    "model": "NPN",
+    "nets": {
+      "1": "LED_B_BASE",
+      "2": "GND",
+      "3": "LED_B_COL"
+    },
+    "page": "ui",
+    "pos": [
+      281,
+      154
+    ],
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": [
+      133,
+      62
+    ],
+    "mpn": "MMBT3904LT1G",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "193fb57f-b697-5c55-9788-b3a52b37dd3b"
+  },
+  {
+    "ref": "R22",
+    "value": "220",
+    "model": "R",
+    "nets": {
+      "1": "RGB_B_K",
+      "2": "LED_B_COL"
+    },
+    "page": "ui",
+    "pos": [
+      356,
+      154
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      133,
+      71
+    ],
+    "mpn": "RC0603FR-07220RL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "6642c29f-1e4d-5834-9140-fb5dabb76c40"
+  },
+  {
+    "ref": "R23",
+    "value": "2.2k",
+    "model": "R",
+    "nets": {
+      "1": "BUZZER_GATE",
+      "2": "BUZZ_BASE"
+    },
+    "page": "ui",
+    "pos": [
+      54,
+      214
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      104,
+      136
+    ],
+    "mpn": "RC0603FR-072K2L",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "9b8d4fb2-374e-5295-96f6-649a6e9061cc"
+  },
+  {
+    "ref": "R24",
+    "value": "2.2k",
+    "model": "R",
+    "nets": {
+      "1": "BUZZ_BASE",
+      "2": "GND"
+    },
+    "page": "ui",
+    "pos": [
+      115,
+      214
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      104,
+      139
+    ],
+    "mpn": "RC0603FR-072K2L",
+    "note": "Strong pulldown overrides GPIO14 reset weak pullup",
+    "rot": 0,
+    "side": "F",
+    "uuid": "a5cc9567-8619-5372-810e-1ff2343b358c"
+  },
+  {
+    "ref": "Q6",
+    "value": "MMBT3904LT1G",
+    "model": "NPN",
+    "nets": {
+      "1": "BUZZ_BASE",
+      "2": "GND",
+      "3": "BUZZ_LOW"
+    },
+    "page": "ui",
+    "pos": [
+      183,
+      219
+    ],
+    "fp": "Package_TO_SOT_SMD:SOT-23",
+    "xy": [
+      105,
+      133
+    ],
+    "mpn": "MMBT3904LT1G",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "42435df8-f3de-590b-a917-7a45a5e42ab0"
+  },
+  {
+    "ref": "R25",
+    "value": "1k",
+    "model": "R",
+    "nets": {
+      "1": "+5V",
+      "2": "BUZZ_LOW"
+    },
+    "page": "ui",
+    "pos": [
+      248,
+      211
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      109,
+      136
+    ],
+    "mpn": "RC0603FR-071KL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "7905f7a9-fe54-5ad9-9f2b-0c9b4514bbc1"
+  },
+  {
+    "ref": "BZ1",
+    "value": "PKMCS0909E4000-R1",
+    "model": "CONN2",
+    "nets": {
+      "1": "+5V",
+      "2": "BUZZ_LOW"
+    },
+    "page": "ui",
+    "pos": [
+      322,
+      211
+    ],
+    "fp": "Buzzer_Beeper:Buzzer_Murata_PKMCS0909E",
+    "xy": [
+      105,
+      142
+    ],
+    "mpn": "PKMCS0909E4000-R1",
+    "note": "Passive piezo 4kHz / provisional backside fit",
+    "rot": 0,
+    "side": "B",
+    "uuid": "3db92d4a-7fb4-542e-ae38-b06ae8344ad7"
+  },
+  {
+    "ref": "J4",
+    "value": "TAMPER CASE LOOP",
+    "model": "CONN2",
+    "nets": {
+      "1": "TAMPER_N",
+      "2": "GND"
+    },
+    "page": "ui",
+    "pos": [
+      60,
+      258
+    ],
+    "fp": "OpenDual:Solder2",
+    "xy": [
+      105,
+      102
+    ],
+    "mpn": "PCB solder lands / remote KSC223G LFG assembly",
+    "note": "Remote Y31B13136FPLFG SPST-NO plus 1k series resistor; pressed closed, released open; carrier and actuator fit unresolved",
+    "rot": 0,
+    "side": "F",
+    "uuid": "57a2632b-1373-53ef-8d4e-8ac168340607"
+  },
+  {
+    "ref": "R26",
+    "value": "10k",
+    "model": "R",
+    "nets": {
+      "1": "+3V3",
+      "2": "TAMPER_N"
+    },
+    "page": "ui",
+    "pos": [
+      135,
+      258
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      130,
+      102
+    ],
+    "mpn": "RC0603FR-0710KL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "67201ccb-33b1-5eba-b3c9-8380f92c5854"
+  },
+  {
+    "ref": "C13",
+    "value": "100n/50V",
+    "model": "C",
+    "nets": {
+      "1": "TAMPER_N",
+      "2": "GND"
+    },
+    "page": "ui",
+    "pos": [
+      197,
+      258
+    ],
+    "fp": "Capacitor_SMD:C_0603_1608Metric",
+    "xy": [
+      130,
+      105
+    ],
+    "mpn": "GRM188R71H104KA93D",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "77f8155c-d9b0-5a2f-b4b5-a523a7c5cabd"
+  },
+  {
+    "ref": "R27",
+    "value": "100k",
+    "model": "R",
+    "nets": {
+      "1": "RELAY_EN",
+      "2": "GND"
+    },
+    "page": "ui",
+    "pos": [
+      260,
+      258
+    ],
+    "fp": "Resistor_SMD:R_0603_1608Metric",
+    "xy": [
+      104,
+      106
+    ],
+    "mpn": "RC0603FR-07100KL",
+    "note": "",
+    "rot": 0,
+    "side": "F",
+    "uuid": "b17424a0-6c45-5be1-97e2-46e1c76de915"
+  },
+  {
+    "ref": "J5",
+    "value": "DEMO RELAY LOGIC",
+    "model": "CONN3",
+    "nets": {
+      "1": "GND",
+      "2": "RELAY_EN",
+      "3": "+3V3"
+    },
+    "page": "ui",
+    "pos": [
+      341,
+      240
+    ],
+    "fp": "OpenDual:Solder3",
+    "xy": [
+      103,
+      109
+    ],
+    "mpn": "PCB solder lands",
+    "note": "Logic only3.3V. No coil/lock supply on reader.",
+    "rot": 0,
+    "side": "F",
+    "uuid": "6de6cdcc-e440-5846-ba4b-dfdcc4c9fda5"
+  }
+]

@@ -1,0 +1,9 @@
+﻿Reference,Quantity,Value,Manufacturer,MPN,Footprint,Primary_source
+K1,1,G5V-1 DC12,Omron,G5V-1 DC12,RelayDemo:Relay_SPDT_Omron_G5V-1,https://components.omron.com/us-en/system/files/2023-01/datasheet_pdf/K048-E1.pdf
+Q1,1,MMBT3904LT1G,onsemi,MMBT3904LT1G,RelayDemo:SOT-23,https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf
+D1,1,1N4148W-7-F,Diodes Incorporated,1N4148W-7-F,RelayDemo:D_SOD-123,https://www.diodes.com/datasheet/download/1N4148W.pdf
+R1,1,1k,Yageo,RC0603FR-071KL,RelayDemo:R_0603_1608Metric,https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL
+R2,1,100k,Yageo,RC0603FR-07100KL,RelayDemo:R_0603_1608Metric,https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL
+J1,1,LOGIC FROM READER J5,PCB feature,PCB solder holes,RelayDemo:Solder2,
+J2,1,REGULATED 12V INPUT,PCB feature,PCB solder holes,RelayDemo:Solder2,
+J3,1,NC / COM / NO,PCB feature,PCB solder holes,RelayDemo:Solder3,

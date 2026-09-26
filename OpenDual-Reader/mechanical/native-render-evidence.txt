@@ -1,0 +1,40 @@
+OpenSCAD 2021.01 native command results, 2026-09-26.
+Captured from command-tool output. OpenSCAD emitted these summaries on standard
+output; the separately redirected stderr logs were empty. No errors were reported.
+
+Input: OpenDual-Reader-enclosure.scad
+Front: openscad.com -o front-cover.stl -D 'view="front"' INPUT
+Process exit code: 0
+Total rendering time: 0:00:13.112
+Top level object is a 3D object:
+  Simple: yes
+  Vertices: 1952
+  Halfedges: 6368
+  Edges: 3184
+  Halffacets: 2482
+  Facets: 1241
+  Volumes: 2
+
+Back: openscad.com -o backplate.stl -D 'view="back"' INPUT
+Process exit code: 0
+Total rendering time: 0:00:09.021
+Top level object is a 3D object:
+  Simple: yes
+  Vertices: 1852
+  Halfedges: 5556
+  Edges: 2778
+  Halffacets: 1878
+  Facets: 939
+  Volumes: 2
+
+Preview: openscad.com -o enclosure-exploded.png -D 'view="exploded"'
+  -D 'show_rf_reserves=false' --autocenter --viewall --imgsize=1000,1400
+  --projection=o --camera=0,0,0,55,0,25,260 INPUT
+Process exit code: 0
+Normalized CSG tree has 65 elements.
+Total rendering time: 0:00:00.458
+Exploded image visually inspected.
+
+Independent exported-mesh topology, bounds and SHA-256 results are in
+solid-validation.json. Successful solid export does not validate physical fit,
+all component interferences, tolerances, material properties or environmental use.

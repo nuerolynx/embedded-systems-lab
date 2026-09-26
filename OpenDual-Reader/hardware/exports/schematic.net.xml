@@ -1,0 +1,2507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\Matt D\Documents\Codex\2026-09-26\you\outputs\OpenDual-Reader\hardware\kicad\OpenDual-Reader.kicad_sch</source>
+    <date>2026-09-26T14:40:56</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>OpenDual Reader / independent prototype</title>
+        <company>OpenDual / open hardware</company>
+        <rev>A0</rev>
+        <date/>
+        <source>OpenDual-Reader.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/01 / POWER AND PROTECTION/" tstamps="/dd006417-7e79-5312-8f12-f286e5acd459/">
+      <title_block>
+        <title>01 / POWER AND PROTECTION</title>
+        <company/>
+        <rev>A0</rev>
+        <date/>
+        <source>power.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/02 / ESP32 AND SERVICE/" tstamps="/4c590f0f-dd8d-5f2e-8660-291d9d6fb31e/">
+      <title_block>
+        <title>02 / ESP32 AND SERVICE</title>
+        <company/>
+        <rev>A0</rev>
+        <date/>
+        <source>mcu.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/03 / LF AND HF MODULES/" tstamps="/869d21eb-2808-5c1b-bf97-d8f9ba61588f/">
+      <title_block>
+        <title>03 / LF AND HF MODULES</title>
+        <company/>
+        <rev>A0</rev>
+        <date/>
+        <source>rf.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/">
+      <title_block>
+        <title>04 / OSDP AND WIEGAND</title>
+        <company/>
+        <rev>A0</rev>
+        <date/>
+        <source>panel.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/">
+      <title_block>
+        <title>05 / STATUS, TAMPER, EXPANSION</title>
+        <company/>
+        <rev>A0</rev>
+        <date/>
+        <source>ui.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>10u/50V</value>
+      <footprint>OpenDual:C_1210_3225Metric</footprint>
+      <fields>
+        <field name="MPN">GRM32ER71H106KA12L</field>
+        <field name="Footprint">OpenDual:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="C" description=""/>
+      <property name="MPN" value="GRM32ER71H106KA12L"/>
+      <property name="Sheetname" value="01 / POWER AND PROTECTION"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/01 / POWER AND PROTECTION/" tstamps="/dd006417-7e79-5312-8f12-f286e5acd459/"/>
+      <tstamps>1dbea8b8-1051-541c-9bb0-2a0114922a52</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100n/50V</value>
+      <footprint>OpenDual:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Footprint">OpenDual:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="C" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Sheetname" value="01 / POWER AND PROTECTION"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/01 / POWER AND PROTECTION/" tstamps="/dd006417-7e79-5312-8f12-f286e5acd459/"/>
+      <tstamps>2ebc1ffe-d2a7-559b-912f-37fa644b0796</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>10u/10V</value>
+      <footprint>OpenDual:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R61A106KE69D</field>
+        <field name="Footprint">OpenDual:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="C" description=""/>
+      <property name="MPN" value="GRM188R61A106KE69D"/>
+      <property name="Sheetname" value="01 / POWER AND PROTECTION"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/01 / POWER AND PROTECTION/" tstamps="/dd006417-7e79-5312-8f12-f286e5acd459/"/>
+      <tstamps>fb7af830-12db-5dfe-bb0d-baa364831f04</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>10u/10V</value>
+      <footprint>OpenDual:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R61A106KE69D</field>
+        <field name="Footprint">OpenDual:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="C" description=""/>
+      <property name="MPN" value="GRM188R61A106KE69D"/>
+      <property name="Sheetname" value="01 / POWER AND PROTECTION"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/01 / POWER AND PROTECTION/" tstamps="/dd006417-7e79-5312-8f12-f286e5acd459/"/>
+      <tstamps>b236982c-5f5b-5fd6-b3a9-b09f6d06c3af</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>B340A-13-F</value>
+      <footprint>OpenDual:D_SMA</footprint>
+      <fields>
+        <field name="MPN">B340A-13-F</field>
+        <field name="Footprint">OpenDual:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="DIODE" description=""/>
+      <property name="MPN" value="B340A-13-F"/>
+      <property name="Sheetname" value="01 / POWER AND PROTECTION"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/01 / POWER AND PROTECTION/" tstamps="/dd006417-7e79-5312-8f12-f286e5acd459/"/>
+      <tstamps>c1fe1d64-1282-5605-b81a-f1e710dbdeab</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>SMBJ18A</value>
+      <footprint>OpenDual:D_SMB</footprint>
+      <fields>
+        <field name="MPN">SMBJ18A</field>
+        <field name="Footprint">OpenDual:D_SMB</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="DIODE" description=""/>
+      <property name="MPN" value="SMBJ18A"/>
+      <property name="Sheetname" value="01 / POWER AND PROTECTION"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/01 / POWER AND PROTECTION/" tstamps="/dd006417-7e79-5312-8f12-f286e5acd459/"/>
+      <tstamps>6d929775-1959-50f6-9c55-6767bbd1e9fb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="F1">
+      <value>0.75A PTC</value>
+      <footprint>OpenDual:Fuse_1812_4532Metric</footprint>
+      <fields>
+        <field name="MPN">1812L075/33DR</field>
+        <field name="Footprint">OpenDual:Fuse_1812_4532Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="FUSE" description=""/>
+      <property name="MPN" value="1812L075/33DR"/>
+      <property name="Sheetname" value="01 / POWER AND PROTECTION"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/01 / POWER AND PROTECTION/" tstamps="/dd006417-7e79-5312-8f12-f286e5acd459/"/>
+      <tstamps>b9461b5f-6629-508f-ad0c-8b510052a3a9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>PANEL CABLE</value>
+      <footprint>OpenDual:Solder6</footprint>
+      <fields>
+        <field name="MPN">PCB solder lands / 6 conductors</field>
+        <field name="Footprint">OpenDual:Solder6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="CONN6" description=""/>
+      <property name="MPN" value="PCB solder lands / 6 conductors"/>
+      <property name="Sheetname" value="01 / POWER AND PROTECTION"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/01 / POWER AND PROTECTION/" tstamps="/dd006417-7e79-5312-8f12-f286e5acd459/"/>
+      <tstamps>4465c8c2-0494-5b7d-8e3a-5e331f37b1a6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="PF1">
+      <value>VIN_PROT</value>
+      <fields>
+        <field name="MPN">VIN_PROT</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="FLAG" description=""/>
+      <property name="MPN" value="VIN_PROT"/>
+      <property name="Sheetname" value="01 / POWER AND PROTECTION"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/01 / POWER AND PROTECTION/" tstamps="/dd006417-7e79-5312-8f12-f286e5acd459/"/>
+      <tstamps>56e210c4-0de3-502c-ad17-ef101c7ab105</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="PF2">
+      <value>GND</value>
+      <fields>
+        <field name="MPN">GND</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="FLAG" description=""/>
+      <property name="MPN" value="GND"/>
+      <property name="Sheetname" value="01 / POWER AND PROTECTION"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/01 / POWER AND PROTECTION/" tstamps="/dd006417-7e79-5312-8f12-f286e5acd459/"/>
+      <tstamps>beee3a1b-9d07-575a-a61f-36cc10524ab2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>TSR 1-2433</value>
+      <footprint>OpenDual:Converter_DCDC_TRACO_TSR-1_THT</footprint>
+      <fields>
+        <field name="MPN">TSR 1-2433</field>
+        <field name="Footprint">OpenDual:Converter_DCDC_TRACO_TSR-1_THT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="TSR" description=""/>
+      <property name="MPN" value="TSR 1-2433"/>
+      <property name="Sheetname" value="01 / POWER AND PROTECTION"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/01 / POWER AND PROTECTION/" tstamps="/dd006417-7e79-5312-8f12-f286e5acd459/"/>
+      <tstamps>91445f4d-949f-5930-a1d3-98b402cb6a59</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>TSR 1-2450</value>
+      <footprint>OpenDual:Converter_DCDC_TRACO_TSR-1_THT</footprint>
+      <fields>
+        <field name="MPN">TSR 1-2450</field>
+        <field name="Footprint">OpenDual:Converter_DCDC_TRACO_TSR-1_THT</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="TSR" description=""/>
+      <property name="MPN" value="TSR 1-2450"/>
+      <property name="Sheetname" value="01 / POWER AND PROTECTION"/>
+      <property name="Sheetfile" value="power.kicad_sch"/>
+      <sheetpath names="/01 / POWER AND PROTECTION/" tstamps="/dd006417-7e79-5312-8f12-f286e5acd459/"/>
+      <tstamps>aaea0fce-9736-5ff9-b080-3882659b2699</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>10u/10V</value>
+      <footprint>OpenDual:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R61A106KE69D</field>
+        <field name="Footprint">OpenDual:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="C" description=""/>
+      <property name="MPN" value="GRM188R61A106KE69D"/>
+      <property name="Sheetname" value="02 / ESP32 AND SERVICE"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <sheetpath names="/02 / ESP32 AND SERVICE/" tstamps="/4c590f0f-dd8d-5f2e-8660-291d9d6fb31e/"/>
+      <tstamps>cfe74f1c-c930-5c4c-8cf3-4b20d0b970db</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100n/50V</value>
+      <footprint>OpenDual:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Footprint">OpenDual:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="C" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Sheetname" value="02 / ESP32 AND SERVICE"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <sheetpath names="/02 / ESP32 AND SERVICE/" tstamps="/4c590f0f-dd8d-5f2e-8660-291d9d6fb31e/"/>
+      <tstamps>865a89f2-8406-5be8-82f1-0941a090fe2a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>1u/10V</value>
+      <footprint>OpenDual:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R61A105KA61D</field>
+        <field name="Footprint">OpenDual:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="C" description=""/>
+      <property name="MPN" value="GRM188R61A105KA61D"/>
+      <property name="Sheetname" value="02 / ESP32 AND SERVICE"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <sheetpath names="/02 / ESP32 AND SERVICE/" tstamps="/4c590f0f-dd8d-5f2e-8660-291d9d6fb31e/"/>
+      <tstamps>33ac4da4-98e9-5f55-ae07-43c86ae7cc22</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>PROGRAM 3.3V LOGIC</value>
+      <footprint>OpenDual:Solder6</footprint>
+      <fields>
+        <field name="MPN">PCB solder lands / pogo fixture</field>
+        <field name="Footprint">OpenDual:Solder6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="CONN6" description=""/>
+      <property name="MPN" value="PCB solder lands / pogo fixture"/>
+      <property name="Sheetname" value="02 / ESP32 AND SERVICE"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <sheetpath names="/02 / ESP32 AND SERVICE/" tstamps="/4c590f0f-dd8d-5f2e-8660-291d9d6fb31e/"/>
+      <tstamps>70c7c81d-1869-50d9-b179-45666cbc3c48</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP1">
+      <value>RESET short</value>
+      <footprint>OpenDual:Solder2</footprint>
+      <fields>
+        <field name="MPN">PCB service shorting pads</field>
+        <field name="Footprint">OpenDual:Solder2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="CONN2" description=""/>
+      <property name="MPN" value="PCB service shorting pads"/>
+      <property name="Sheetname" value="02 / ESP32 AND SERVICE"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <sheetpath names="/02 / ESP32 AND SERVICE/" tstamps="/4c590f0f-dd8d-5f2e-8660-291d9d6fb31e/"/>
+      <tstamps>bdab0ded-394c-54bf-a669-ca9ff71b3759</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP2">
+      <value>BOOT short</value>
+      <footprint>OpenDual:Solder2</footprint>
+      <fields>
+        <field name="MPN">PCB service shorting pads</field>
+        <field name="Footprint">OpenDual:Solder2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="CONN2" description=""/>
+      <property name="MPN" value="PCB service shorting pads"/>
+      <property name="Sheetname" value="02 / ESP32 AND SERVICE"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <sheetpath names="/02 / ESP32 AND SERVICE/" tstamps="/4c590f0f-dd8d-5f2e-8660-291d9d6fb31e/"/>
+      <tstamps>14adb73e-585b-5600-83e7-8a5febbf59f5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="02 / ESP32 AND SERVICE"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <sheetpath names="/02 / ESP32 AND SERVICE/" tstamps="/4c590f0f-dd8d-5f2e-8660-291d9d6fb31e/"/>
+      <tstamps>a1f809e3-02b5-5e04-912a-a12aa4765f62</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="02 / ESP32 AND SERVICE"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <sheetpath names="/02 / ESP32 AND SERVICE/" tstamps="/4c590f0f-dd8d-5f2e-8660-291d9d6fb31e/"/>
+      <tstamps>03223077-e320-5fb5-8c69-4bf70c52db76</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>ESP32-WROOM-32E-N4</value>
+      <footprint>OpenDual:ESP32-WROOM-32E</footprint>
+      <fields>
+        <field name="MPN">ESP32-WROOM-32E-N4</field>
+        <field name="Footprint">OpenDual:ESP32-WROOM-32E</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="ESP32" description=""/>
+      <property name="MPN" value="ESP32-WROOM-32E-N4"/>
+      <property name="Sheetname" value="02 / ESP32 AND SERVICE"/>
+      <property name="Sheetfile" value="mcu.kicad_sch"/>
+      <sheetpath names="/02 / ESP32 AND SERVICE/" tstamps="/4c590f0f-dd8d-5f2e-8660-291d9d6fb31e/"/>
+      <tstamps>6d4b3d88-07d5-54c7-98b0-733b1741d983</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="31"/>
+            <pin num="32"/>
+            <pin num="33"/>
+            <pin num="34"/>
+            <pin num="35"/>
+            <pin num="36"/>
+            <pin num="37"/>
+            <pin num="38"/>
+            <pin num="39"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100n/50V</value>
+      <footprint>OpenDual:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Footprint">OpenDual:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="C" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Sheetname" value="03 / LF AND HF MODULES"/>
+      <property name="Sheetfile" value="rf.kicad_sch"/>
+      <sheetpath names="/03 / LF AND HF MODULES/" tstamps="/869d21eb-2808-5c1b-bf97-d8f9ba61588f/"/>
+      <tstamps>a805c7f4-382f-57ed-a9a0-16f057ee80bf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>10u/10V</value>
+      <footprint>OpenDual:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R61A106KE69D</field>
+        <field name="Footprint">OpenDual:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="C" description=""/>
+      <property name="MPN" value="GRM188R61A106KE69D"/>
+      <property name="Sheetname" value="03 / LF AND HF MODULES"/>
+      <property name="Sheetfile" value="rf.kicad_sch"/>
+      <sheetpath names="/03 / LF AND HF MODULES/" tstamps="/869d21eb-2808-5c1b-bf97-d8f9ba61588f/"/>
+      <tstamps>2d35c6a3-e553-5f09-9dcd-fab41311a998</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>10u/10V</value>
+      <footprint>OpenDual:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R61A106KE69D</field>
+        <field name="Footprint">OpenDual:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="C" description=""/>
+      <property name="MPN" value="GRM188R61A106KE69D"/>
+      <property name="Sheetname" value="03 / LF AND HF MODULES"/>
+      <property name="Sheetfile" value="rf.kicad_sch"/>
+      <sheetpath names="/03 / LF AND HF MODULES/" tstamps="/869d21eb-2808-5c1b-bf97-d8f9ba61588f/"/>
+      <tstamps>93c65238-cf2f-5776-890e-bf4696d35200</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100n/50V</value>
+      <footprint>OpenDual:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Footprint">OpenDual:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="C" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Sheetname" value="03 / LF AND HF MODULES"/>
+      <property name="Sheetfile" value="rf.kicad_sch"/>
+      <sheetpath names="/03 / LF AND HF MODULES/" tstamps="/869d21eb-2808-5c1b-bf97-d8f9ba61588f/"/>
+      <tstamps>7a675cab-bf3b-5cd4-b44b-3ba3c17143fd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>PN5321 MINI V2 HARNESS</value>
+      <footprint>OpenDual:Solder7</footprint>
+      <fields>
+        <field name="MPN">PCB solder lands; module SKU NFC_EX_MINI</field>
+        <field name="Footprint">OpenDual:Solder7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="CONN7" description=""/>
+      <property name="MPN" value="PCB solder lands; module SKU NFC_EX_MINI"/>
+      <property name="Sheetname" value="03 / LF AND HF MODULES"/>
+      <property name="Sheetfile" value="rf.kicad_sch"/>
+      <sheetpath names="/03 / LF AND HF MODULES/" tstamps="/869d21eb-2808-5c1b-bf97-d8f9ba61588f/"/>
+      <tstamps>4b12e6d9-0c57-5ac0-a362-dd3d1cd747e6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP3">
+      <value>LF reset short</value>
+      <footprint>OpenDual:Solder2</footprint>
+      <fields>
+        <field name="MPN">PCB service shorting pads</field>
+        <field name="Footprint">OpenDual:Solder2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="CONN2" description=""/>
+      <property name="MPN" value="PCB service shorting pads"/>
+      <property name="Sheetname" value="03 / LF AND HF MODULES"/>
+      <property name="Sheetfile" value="rf.kicad_sch"/>
+      <sheetpath names="/03 / LF AND HF MODULES/" tstamps="/869d21eb-2808-5c1b-bf97-d8f9ba61588f/"/>
+      <tstamps>1f05483e-9aa7-5cf2-9ee4-fcd4ec529772</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="03 / LF AND HF MODULES"/>
+      <property name="Sheetfile" value="rf.kicad_sch"/>
+      <sheetpath names="/03 / LF AND HF MODULES/" tstamps="/869d21eb-2808-5c1b-bf97-d8f9ba61588f/"/>
+      <tstamps>cd1126ff-15c4-5b93-b759-9f64c600c960</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="03 / LF AND HF MODULES"/>
+      <property name="Sheetfile" value="rf.kicad_sch"/>
+      <sheetpath names="/03 / LF AND HF MODULES/" tstamps="/869d21eb-2808-5c1b-bf97-d8f9ba61588f/"/>
+      <tstamps>53b5177c-c4cd-5c90-9372-523bee6bae2d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="03 / LF AND HF MODULES"/>
+      <property name="Sheetfile" value="rf.kicad_sch"/>
+      <sheetpath names="/03 / LF AND HF MODULES/" tstamps="/869d21eb-2808-5c1b-bf97-d8f9ba61588f/"/>
+      <tstamps>9ddc97a3-a239-5419-b477-345d9444d824</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>ID-12LA-HE</value>
+      <footprint>OpenDual:ID12LA_HE</footprint>
+      <fields>
+        <field name="MPN">ID-12LA-HE</field>
+        <field name="Footprint">OpenDual:ID12LA_HE</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="ID12LA_HE" description=""/>
+      <property name="MPN" value="ID-12LA-HE"/>
+      <property name="Sheetname" value="03 / LF AND HF MODULES"/>
+      <property name="Sheetfile" value="rf.kicad_sch"/>
+      <sheetpath names="/03 / LF AND HF MODULES/" tstamps="/869d21eb-2808-5c1b-bf97-d8f9ba61588f/"/>
+      <tstamps>2b577abd-1e50-57e5-9b7e-89f31d6e8a26</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="11"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>100n/50V</value>
+      <footprint>OpenDual:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Footprint">OpenDual:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="C" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Sheetname" value="04 / OSDP AND WIEGAND"/>
+      <property name="Sheetfile" value="panel.kicad_sch"/>
+      <sheetpath names="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/"/>
+      <tstamps>c9fdaab6-238e-5391-8679-b224811f4230</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>SM712-02HTG</value>
+      <footprint>OpenDual:SOT-23</footprint>
+      <fields>
+        <field name="MPN">SM712-02HTG</field>
+        <field name="Footprint">OpenDual:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="SM712" description=""/>
+      <property name="MPN" value="SM712-02HTG"/>
+      <property name="Sheetname" value="04 / OSDP AND WIEGAND"/>
+      <property name="Sheetfile" value="panel.kicad_sch"/>
+      <sheetpath names="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/"/>
+      <tstamps>4a05fc0c-c07f-545b-af23-d103a6f065d3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>SMBJ15A</value>
+      <footprint>OpenDual:D_SMB</footprint>
+      <fields>
+        <field name="MPN">SMBJ15A</field>
+        <field name="Footprint">OpenDual:D_SMB</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="DIODE" description=""/>
+      <property name="MPN" value="SMBJ15A"/>
+      <property name="Sheetname" value="04 / OSDP AND WIEGAND"/>
+      <property name="Sheetfile" value="panel.kicad_sch"/>
+      <sheetpath names="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/"/>
+      <tstamps>fef2fbc6-1caa-52fb-9ec1-f03784829a35</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D5">
+      <value>SMBJ15A</value>
+      <footprint>OpenDual:D_SMB</footprint>
+      <fields>
+        <field name="MPN">SMBJ15A</field>
+        <field name="Footprint">OpenDual:D_SMB</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="DIODE" description=""/>
+      <property name="MPN" value="SMBJ15A"/>
+      <property name="Sheetname" value="04 / OSDP AND WIEGAND"/>
+      <property name="Sheetfile" value="panel.kicad_sch"/>
+      <sheetpath names="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/"/>
+      <tstamps>54fac160-7ff4-5a28-a75c-4ec48da82213</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JP4">
+      <value>TERM CLOSE AT END</value>
+      <footprint>OpenDual:Solder2</footprint>
+      <fields>
+        <field name="MPN">PCB solder jumper / default OPEN</field>
+        <field name="Footprint">OpenDual:Solder2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="CONN2" description=""/>
+      <property name="MPN" value="PCB solder jumper / default OPEN"/>
+      <property name="Sheetname" value="04 / OSDP AND WIEGAND"/>
+      <property name="Sheetfile" value="panel.kicad_sch"/>
+      <sheetpath names="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/"/>
+      <tstamps>ab814ad1-af13-55ba-ba30-f6feb87acf70</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT3904LT1G</value>
+      <footprint>OpenDual:SOT-23</footprint>
+      <fields>
+        <field name="MPN">MMBT3904LT1G</field>
+        <field name="Footprint">OpenDual:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="NPN" description=""/>
+      <property name="MPN" value="MMBT3904LT1G"/>
+      <property name="Sheetname" value="04 / OSDP AND WIEGAND"/>
+      <property name="Sheetfile" value="panel.kicad_sch"/>
+      <sheetpath names="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/"/>
+      <tstamps>04217f4d-a8f6-5005-a867-3bb39c73e656</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q2">
+      <value>MMBT3904LT1G</value>
+      <footprint>OpenDual:SOT-23</footprint>
+      <fields>
+        <field name="MPN">MMBT3904LT1G</field>
+        <field name="Footprint">OpenDual:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="NPN" description=""/>
+      <property name="MPN" value="MMBT3904LT1G"/>
+      <property name="Sheetname" value="04 / OSDP AND WIEGAND"/>
+      <property name="Sheetfile" value="panel.kicad_sch"/>
+      <sheetpath names="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/"/>
+      <tstamps>d2aa83f4-a7ea-5fae-a382-208e87d72127</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="04 / OSDP AND WIEGAND"/>
+      <property name="Sheetfile" value="panel.kicad_sch"/>
+      <sheetpath names="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/"/>
+      <tstamps>a0c48241-c6bd-57e6-97a5-aa330ab4aadb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>120</value>
+      <footprint>OpenDual:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="MPN">CRCW1206120RFKEAHP</field>
+        <field name="Footprint">OpenDual:R_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="CRCW1206120RFKEAHP"/>
+      <property name="Sheetname" value="04 / OSDP AND WIEGAND"/>
+      <property name="Sheetfile" value="panel.kicad_sch"/>
+      <sheetpath names="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/"/>
+      <tstamps>2838ea9b-ff23-5bbe-8700-a9e1f066a6d7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>2.2k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-072K2L"/>
+      <property name="Sheetname" value="04 / OSDP AND WIEGAND"/>
+      <property name="Sheetfile" value="panel.kicad_sch"/>
+      <sheetpath names="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/"/>
+      <tstamps>3370bdb5-b131-5ef7-8026-360d85302c43</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="04 / OSDP AND WIEGAND"/>
+      <property name="Sheetfile" value="panel.kicad_sch"/>
+      <sheetpath names="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/"/>
+      <tstamps>700cd8ba-273d-5070-95f4-6c49d7eaa1f7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>47</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0747RL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0747RL"/>
+      <property name="Sheetname" value="04 / OSDP AND WIEGAND"/>
+      <property name="Sheetfile" value="panel.kicad_sch"/>
+      <sheetpath names="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/"/>
+      <tstamps>363e45fb-252e-52dd-a11f-cc6803bfecb0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>2.2k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-072K2L"/>
+      <property name="Sheetname" value="04 / OSDP AND WIEGAND"/>
+      <property name="Sheetfile" value="panel.kicad_sch"/>
+      <sheetpath names="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/"/>
+      <tstamps>f899341d-0f64-5561-86f6-6d0c51883e5b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>100k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="04 / OSDP AND WIEGAND"/>
+      <property name="Sheetfile" value="panel.kicad_sch"/>
+      <sheetpath names="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/"/>
+      <tstamps>9c1992dc-5f0e-5ec4-878b-7985597cdadb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>47</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0747RL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0747RL"/>
+      <property name="Sheetname" value="04 / OSDP AND WIEGAND"/>
+      <property name="Sheetfile" value="panel.kicad_sch"/>
+      <sheetpath names="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/"/>
+      <tstamps>6ff8cad7-ec3c-5ec7-9626-3826598675ac</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>THVD2410DR</value>
+      <footprint>OpenDual:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="MPN">THVD2410DR</field>
+        <field name="Footprint">OpenDual:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="RS485" description=""/>
+      <property name="MPN" value="THVD2410DR"/>
+      <property name="Sheetname" value="04 / OSDP AND WIEGAND"/>
+      <property name="Sheetfile" value="panel.kicad_sch"/>
+      <sheetpath names="/04 / OSDP AND WIEGAND/" tstamps="/aab7d651-8494-5e2f-9fc7-e5f589dc69c4/"/>
+      <tstamps>58612608-a286-5dcd-8e39-c4f08c72a3a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="BZ1">
+      <value>PKMCS0909E4000-R1</value>
+      <footprint>OpenDual:Buzzer_Murata_PKMCS0909E</footprint>
+      <fields>
+        <field name="MPN">PKMCS0909E4000-R1</field>
+        <field name="Footprint">OpenDual:Buzzer_Murata_PKMCS0909E</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="CONN2" description=""/>
+      <property name="MPN" value="PKMCS0909E4000-R1"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>3db92d4a-7fb4-542e-ae38-b06ae8344ad7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>100n/50V</value>
+      <footprint>OpenDual:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">GRM188R71H104KA93D</field>
+        <field name="Footprint">OpenDual:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="C" description=""/>
+      <property name="MPN" value="GRM188R71H104KA93D"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>77f8155c-d9b0-5a2f-b4b5-a523a7c5cabd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D6">
+      <value>RGB 150141M173100</value>
+      <footprint>OpenDual:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100</footprint>
+      <fields>
+        <field name="MPN">150141M173100</field>
+        <field name="Footprint">OpenDual:LED_RGB_Wuerth-PLCC4_3.2x2.8mm_150141M173100</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="RGB" description=""/>
+      <property name="MPN" value="150141M173100"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>bb35b208-4b09-5ce8-8834-7eda382e0a78</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>TAMPER CASE LOOP</value>
+      <footprint>OpenDual:Solder2</footprint>
+      <fields>
+        <field name="MPN">PCB solder lands / remote KSC223G LFG assembly</field>
+        <field name="Footprint">OpenDual:Solder2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="CONN2" description=""/>
+      <property name="MPN" value="PCB solder lands / remote KSC223G LFG assembly"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>57a2632b-1373-53ef-8d4e-8ac168340607</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>DEMO RELAY LOGIC</value>
+      <footprint>OpenDual:Solder3</footprint>
+      <fields>
+        <field name="MPN">PCB solder lands</field>
+        <field name="Footprint">OpenDual:Solder3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="CONN3" description=""/>
+      <property name="MPN" value="PCB solder lands"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>6de6cdcc-e440-5846-ba4b-dfdcc4c9fda5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q3">
+      <value>MMBT3904LT1G</value>
+      <footprint>OpenDual:SOT-23</footprint>
+      <fields>
+        <field name="MPN">MMBT3904LT1G</field>
+        <field name="Footprint">OpenDual:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="NPN" description=""/>
+      <property name="MPN" value="MMBT3904LT1G"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>19cc4909-61a0-5032-887b-232a700ab3c8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q4">
+      <value>MMBT3904LT1G</value>
+      <footprint>OpenDual:SOT-23</footprint>
+      <fields>
+        <field name="MPN">MMBT3904LT1G</field>
+        <field name="Footprint">OpenDual:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="NPN" description=""/>
+      <property name="MPN" value="MMBT3904LT1G"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>732c3bb6-fdbb-5077-9109-b68ef529aad0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q5">
+      <value>MMBT3904LT1G</value>
+      <footprint>OpenDual:SOT-23</footprint>
+      <fields>
+        <field name="MPN">MMBT3904LT1G</field>
+        <field name="Footprint">OpenDual:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="NPN" description=""/>
+      <property name="MPN" value="MMBT3904LT1G"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>193fb57f-b697-5c55-9788-b3a52b37dd3b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q6">
+      <value>MMBT3904LT1G</value>
+      <footprint>OpenDual:SOT-23</footprint>
+      <fields>
+        <field name="MPN">MMBT3904LT1G</field>
+        <field name="Footprint">OpenDual:SOT-23</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="NPN" description=""/>
+      <property name="MPN" value="MMBT3904LT1G"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>42435df8-f3de-590b-a917-7a45a5e42ab0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>2.2k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-072K2L"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>67af43e6-d261-5ff8-9369-114341393f82</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>100k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>f63f8f49-0112-58ed-ac00-eaf03c50ca90</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>330</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07330RL"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>ee54d5db-6fa6-5b81-bdc4-7e78cfac1f1e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>2.2k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-072K2L"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>6ec39633-c591-5482-a0d9-f2d6e82a2642</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>100k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>ce473397-3f14-5b88-bd0b-df5892d42d53</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>220</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07220RL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07220RL"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>7df7659f-01a5-5872-9ed5-6aab2d6b4550</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>2.2k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-072K2L"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>27815cd7-6aec-5212-923e-9e8bf1dfa2ad</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>100k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>4e246214-a3b6-5c62-98e7-c1c2971b1ef7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>220</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07220RL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07220RL"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>6642c29f-1e4d-5834-9140-fb5dabb76c40</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>2.2k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-072K2L"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>9b8d4fb2-374e-5295-96f6-649a6e9061cc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>2.2k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-072K2L</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-072K2L"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>a5cc9567-8619-5372-810e-1ff2343b358c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R25">
+      <value>1k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-071KL"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>7905f7a9-fe54-5ad9-9f2b-0c9b4514bbc1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R26">
+      <value>10k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-0710KL"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>67201ccb-33b1-5eba-b3c9-8380f92c5854</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R27">
+      <value>100k</value>
+      <footprint>OpenDual:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100KL</field>
+        <field name="Footprint">OpenDual:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="OpenDual" part="R" description=""/>
+      <property name="MPN" value="RC0603FR-07100KL"/>
+      <property name="Sheetname" value="05 / STATUS, TAMPER, EXPANSION"/>
+      <property name="Sheetfile" value="ui.kicad_sch"/>
+      <sheetpath names="/05 / STATUS, TAMPER, EXPANSION/" tstamps="/32247a83-9368-5c86-831e-d48ee334e66c/"/>
+      <tstamps>b17424a0-6c45-5be1-97e2-46e1c76de915</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="OpenDual" part="C">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenDual" part="CONN2">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CONN2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenDual" part="CONN3">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CONN3</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenDual" part="CONN6">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CONN6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenDual" part="CONN7">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CONN7</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenDual" part="DIODE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DIODE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenDual" part="ESP32">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="3V3" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="GPIO36" type="input"/>
+        <pin num="5" name="GPIO39" type="input"/>
+        <pin num="6" name="GPIO34" type="input"/>
+        <pin num="7" name="GPIO35" type="input"/>
+        <pin num="8" name="GPIO32" type="bidirectional"/>
+        <pin num="9" name="GPIO33" type="bidirectional"/>
+        <pin num="10" name="GPIO25" type="bidirectional"/>
+        <pin num="11" name="GPIO26" type="bidirectional"/>
+        <pin num="12" name="GPIO27" type="bidirectional"/>
+        <pin num="13" name="GPIO14" type="bidirectional"/>
+        <pin num="14" name="GPIO12" type="bidirectional"/>
+        <pin num="15" name="GND" type="power_in"/>
+        <pin num="16" name="GPIO13" type="bidirectional"/>
+        <pin num="17" name="NC" type="no_connect"/>
+        <pin num="18" name="NC" type="no_connect"/>
+        <pin num="19" name="NC" type="no_connect"/>
+        <pin num="20" name="NC" type="no_connect"/>
+        <pin num="21" name="NC" type="no_connect"/>
+        <pin num="22" name="NC" type="no_connect"/>
+        <pin num="23" name="GPIO15" type="bidirectional"/>
+        <pin num="24" name="GPIO2" type="bidirectional"/>
+        <pin num="25" name="GPIO0" type="bidirectional"/>
+        <pin num="26" name="GPIO4" type="bidirectional"/>
+        <pin num="27" name="GPIO16" type="bidirectional"/>
+        <pin num="28" name="GPIO17" type="bidirectional"/>
+        <pin num="29" name="GPIO5" type="bidirectional"/>
+        <pin num="30" name="GPIO18" type="bidirectional"/>
+        <pin num="31" name="GPIO19" type="bidirectional"/>
+        <pin num="32" name="NC" type="no_connect"/>
+        <pin num="33" name="GPIO21" type="bidirectional"/>
+        <pin num="34" name="RXD0" type="input"/>
+        <pin num="35" name="TXD0" type="output"/>
+        <pin num="36" name="GPIO22" type="bidirectional"/>
+        <pin num="37" name="GPIO23" type="bidirectional"/>
+        <pin num="38" name="GND" type="power_in"/>
+        <pin num="39" name="GND_PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenDual" part="FLAG">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FLAG</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="POWER_SOURCE" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenDual" part="FUSE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">FUSE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenDual" part="ID12LA_HE">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ID12LA_HE</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="~{RESET}" type="input"/>
+        <pin num="3" name="DNC" type="no_connect"/>
+        <pin num="4" name="DNC" type="no_connect"/>
+        <pin num="5" name="NC" type="no_connect"/>
+        <pin num="6" name="IN_RANGE" type="output"/>
+        <pin num="7" name="FORMAT_GND" type="input"/>
+        <pin num="8" name="PSEUDO_RS232" type="output"/>
+        <pin num="9" name="UART_MCU" type="output"/>
+        <pin num="10" name="READ" type="output"/>
+        <pin num="11" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenDual" part="NPN">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NPN</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="open_collector"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenDual" part="R">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenDual" part="RGB">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RGB</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A_COMMON" type="passive"/>
+        <pin num="2" name="K_BLUE" type="passive"/>
+        <pin num="3" name="K_RED" type="passive"/>
+        <pin num="4" name="K_GREEN" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenDual" part="RS485">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RS485</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="R" type="output"/>
+        <pin num="2" name="~{RE}" type="input"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="D" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="A_NONINV" type="bidirectional"/>
+        <pin num="7" name="B_INV" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenDual" part="SM712">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SM712</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="LINE_A" type="passive"/>
+        <pin num="2" name="LINE_B" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="OpenDual" part="TSR">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TSR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="OpenDual">
+      <uri>${KIPRJMOD}/../libraries/OpenDual.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VOUT_3" pintype="power_out"/>
+      <node ref="U3" pin="2" pinfunction="3V3_2" pintype="power_in"/>
+      <node ref="U4" pin="11" pinfunction="VCC_11" pintype="power_in"/>
+      <node ref="U5" pin="8" pinfunction="VCC_8" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V" class="Default">
+      <node ref="BZ1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="A_COMMON_1" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="VOUT_3" pintype="power_out"/>
+    </net>
+    <net code="3" name="BOOT_N" class="Default">
+      <node ref="J2" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="JP2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="25" pinfunction="GPIO0_25" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="BUZZER_GATE" class="Default">
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U3" pin="13" pinfunction="GPIO14_13" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="BUZZ_BASE" class="Default">
+      <node ref="Q6" pin="1" pinfunction="B_1" pintype="input"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="BUZZ_LOW" class="Default">
+      <node ref="BZ1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="C_3" pintype="open_collector"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="ESP_EN" class="Default">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="JP1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="EN_3" pintype="input"/>
+    </net>
+    <net code="8" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D3" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="JP3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="PF2" pin="1" pinfunction="POWER_SOURCE_1" pintype="power_out"/>
+      <node ref="Q1" pin="2" pinfunction="E_2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="E_2" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="E_2" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="E_2" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="E_2" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="E_2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U3" pin="15" pinfunction="GND_15" pintype="power_in"/>
+      <node ref="U3" pin="38" pinfunction="GND_38" pintype="power_in"/>
+      <node ref="U3" pin="39" pinfunction="GND_PAD_39" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="GND_1" pintype="power_in"/>
+      <node ref="U4" pin="7" pinfunction="FORMAT_GND_7" pintype="input"/>
+      <node ref="U5" pin="5" pinfunction="GND_5" pintype="power_in"/>
+    </net>
+    <net code="9" name="HF_CS_N" class="Default">
+      <node ref="J3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U3" pin="33" pinfunction="GPIO21_33" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="HF_MISO" class="Default">
+      <node ref="J3" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U3" pin="31" pinfunction="GPIO19_31" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="HF_MOSI" class="Default">
+      <node ref="J3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="37" pinfunction="GPIO23_37" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="HF_RST_N" class="Default">
+      <node ref="J3" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U3" pin="36" pinfunction="GPIO22_36" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="HF_SCK" class="Default">
+      <node ref="J3" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="U3" pin="30" pinfunction="GPIO18_30" pintype="bidirectional"/>
+    </net>
+    <net code="14" name="LED_B_BASE" class="Default">
+      <node ref="Q5" pin="1" pinfunction="B_1" pintype="input"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="LED_B_COL" class="Default">
+      <node ref="Q5" pin="3" pinfunction="C_3" pintype="open_collector"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="16" name="LED_B_GATE" class="Default">
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U3" pin="16" pinfunction="GPIO13_16" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="LED_G_BASE" class="Default">
+      <node ref="Q4" pin="1" pinfunction="B_1" pintype="input"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="18" name="LED_G_COL" class="Default">
+      <node ref="Q4" pin="3" pinfunction="C_3" pintype="open_collector"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="LED_G_GATE" class="Default">
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="GPIO33_9" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="LED_R_BASE" class="Default">
+      <node ref="Q3" pin="1" pinfunction="B_1" pintype="input"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="LED_R_COL" class="Default">
+      <node ref="Q3" pin="3" pinfunction="C_3" pintype="open_collector"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="LED_R_GATE" class="Default">
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="GPIO25_10" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="LF_RESET_N" class="Default">
+      <node ref="JP3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="~{RESET}_2" pintype="input"/>
+    </net>
+    <net code="24" name="LF_RX_3V3" class="Default">
+      <node ref="U3" pin="6" pinfunction="GPIO34_6" pintype="input"/>
+      <node ref="U4" pin="9" pinfunction="UART_MCU_9" pintype="output"/>
+    </net>
+    <net code="25" name="PROG_RX" class="Default">
+      <node ref="J2" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="U3" pin="34" pinfunction="RXD0_34" pintype="input"/>
+    </net>
+    <net code="26" name="PROG_TX" class="Default">
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="35" pinfunction="TXD0_35" pintype="output"/>
+    </net>
+    <net code="27" name="RELAY_EN" class="Default">
+      <node ref="J5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="GPIO32_8" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="RGB_B_K" class="Default">
+      <node ref="D6" pin="2" pinfunction="K_BLUE_2" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="RGB_G_K" class="Default">
+      <node ref="D6" pin="4" pinfunction="K_GREEN_4" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="RGB_R_K" class="Default">
+      <node ref="D6" pin="3" pinfunction="K_RED_3" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="RS485_A" class="Default">
+      <node ref="D3" pin="1" pinfunction="LINE_A_1" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="A_NONINV_6" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="RS485_B" class="Default">
+      <node ref="D3" pin="2" pinfunction="LINE_B_2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4_4" pintype="passive"/>
+      <node ref="JP4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U5" pin="7" pinfunction="B_INV_7" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="RS485_DIR" class="Default">
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U3" pin="26" pinfunction="GPIO4_26" pintype="bidirectional"/>
+      <node ref="U5" pin="2" pinfunction="~{RE}_2" pintype="input"/>
+      <node ref="U5" pin="3" pinfunction="DE_3" pintype="input"/>
+    </net>
+    <net code="34" name="RS485_RX" class="Default">
+      <node ref="U3" pin="12" pinfunction="GPIO27_12" pintype="bidirectional"/>
+      <node ref="U5" pin="1" pinfunction="R_1" pintype="output"/>
+    </net>
+    <net code="35" name="RS485_TX" class="Default">
+      <node ref="U3" pin="11" pinfunction="GPIO26_11" pintype="bidirectional"/>
+      <node ref="U5" pin="4" pinfunction="D_4" pintype="input"/>
+    </net>
+    <net code="36" name="TAMPER_N" class="Default">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="GPIO36_4" pintype="input"/>
+    </net>
+    <net code="37" name="TERM_SW" class="Default">
+      <node ref="JP4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="VIN12" class="Default">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="39" name="VIN_FUSED" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="VIN_PROT" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="PF1" pin="1" pinfunction="POWER_SOURCE_1" pintype="power_out"/>
+      <node ref="U1" pin="1" pinfunction="VIN_1" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="VIN_1" pintype="power_in"/>
+    </net>
+    <net code="41" name="WG0_BASE" class="Default">
+      <node ref="Q1" pin="1" pinfunction="B_1" pintype="input"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="WG0_COL" class="Default">
+      <node ref="Q1" pin="3" pinfunction="C_3" pintype="open_collector"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="WG1_BASE" class="Default">
+      <node ref="Q2" pin="1" pinfunction="B_1" pintype="input"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="WG1_COL" class="Default">
+      <node ref="Q2" pin="3" pinfunction="C_3" pintype="open_collector"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="WG_D0_GATE" class="Default">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U3" pin="27" pinfunction="GPIO16_27" pintype="bidirectional"/>
+    </net>
+    <net code="46" name="WG_D1_GATE" class="Default">
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="U3" pin="28" pinfunction="GPIO17_28" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="WIEGAND_D0" class="Default">
+      <node ref="D4" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="WIEGAND_D1" class="Default">
+      <node ref="D5" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="unconnected-(U3-GPIO2-Pad24)" class="Default">
+      <node ref="U3" pin="24" pinfunction="GPIO2_24" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="50" name="unconnected-(U3-GPIO5-Pad29)" class="Default">
+      <node ref="U3" pin="29" pinfunction="GPIO5_29" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="51" name="unconnected-(U3-GPIO12-Pad14)" class="Default">
+      <node ref="U3" pin="14" pinfunction="GPIO12_14" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="52" name="unconnected-(U3-GPIO15-Pad23)" class="Default">
+      <node ref="U3" pin="23" pinfunction="GPIO15_23" pintype="bidirectional+no_connect"/>
+    </net>
+    <net code="53" name="unconnected-(U3-GPIO35-Pad7)" class="Default">
+      <node ref="U3" pin="7" pinfunction="GPIO35_7" pintype="input+no_connect"/>
+    </net>
+    <net code="54" name="unconnected-(U3-GPIO39-Pad5)" class="Default">
+      <node ref="U3" pin="5" pinfunction="GPIO39_5" pintype="input+no_connect"/>
+    </net>
+    <net code="55" name="unconnected-(U3-NC-Pad17)" class="Default">
+      <node ref="U3" pin="17" pinfunction="NC_17" pintype="no_connect"/>
+    </net>
+    <net code="56" name="unconnected-(U3-NC-Pad18)" class="Default">
+      <node ref="U3" pin="18" pinfunction="NC_18" pintype="no_connect"/>
+    </net>
+    <net code="57" name="unconnected-(U3-NC-Pad19)" class="Default">
+      <node ref="U3" pin="19" pinfunction="NC_19" pintype="no_connect"/>
+    </net>
+    <net code="58" name="unconnected-(U3-NC-Pad20)" class="Default">
+      <node ref="U3" pin="20" pinfunction="NC_20" pintype="no_connect"/>
+    </net>
+    <net code="59" name="unconnected-(U3-NC-Pad21)" class="Default">
+      <node ref="U3" pin="21" pinfunction="NC_21" pintype="no_connect"/>
+    </net>
+    <net code="60" name="unconnected-(U3-NC-Pad22)" class="Default">
+      <node ref="U3" pin="22" pinfunction="NC_22" pintype="no_connect"/>
+    </net>
+    <net code="61" name="unconnected-(U3-NC-Pad32)" class="Default">
+      <node ref="U3" pin="32" pinfunction="NC_32" pintype="no_connect"/>
+    </net>
+    <net code="62" name="unconnected-(U4-DNC-Pad3)" class="Default">
+      <node ref="U4" pin="3" pinfunction="DNC_3" pintype="no_connect"/>
+    </net>
+    <net code="63" name="unconnected-(U4-DNC-Pad4)" class="Default">
+      <node ref="U4" pin="4" pinfunction="DNC_4" pintype="no_connect"/>
+    </net>
+    <net code="64" name="unconnected-(U4-IN_RANGE-Pad6)" class="Default">
+      <node ref="U4" pin="6" pinfunction="IN_RANGE_6" pintype="output+no_connect"/>
+    </net>
+    <net code="65" name="unconnected-(U4-NC-Pad5)" class="Default">
+      <node ref="U4" pin="5" pinfunction="NC_5" pintype="no_connect"/>
+    </net>
+    <net code="66" name="unconnected-(U4-PSEUDO_RS232-Pad8)" class="Default">
+      <node ref="U4" pin="8" pinfunction="PSEUDO_RS232_8" pintype="output+no_connect"/>
+    </net>
+    <net code="67" name="unconnected-(U4-READ-Pad10)" class="Default">
+      <node ref="U4" pin="10" pinfunction="READ_10" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

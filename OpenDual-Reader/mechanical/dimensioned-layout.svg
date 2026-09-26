@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1110" viewBox="0 0 1500 1110">
+<title>OpenDual Reader dimensioned mechanical fit study A0</title>
+<desc>Original 131.2 by 40.7 by 17.6 millimetre enclosure proposal with notched PCB, component envelopes and unresolved mechanical fit constraints.</desc>
+<rect x="0" y="0" width="1500" height="1110" rx="0" fill="#101b24" stroke="none" stroke-width="1.2"/>
+<text x="45" y="47" fill="#edf5f7" font-family="Segoe UI,Arial,sans-serif" font-size="27" font-weight="bold" text-anchor="start">OPENDUAL / MECHANICAL FIT STUDY</text>
+<text x="46" y="75" fill="#ffc073" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="normal" text-anchor="start">A0 · ORIGINAL DESIGN · ALL DIMENSIONS IN mm · NOT RELEASED FOR FABRICATION</text>
+<text x="46" y="103" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="normal" text-anchor="start">External envelope remains 131.2 H × 40.7 W × 17.6 D. Body proxies and clearances are nominal.</text>
+<text x="103" y="131" fill="#a2c5d7" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" text-anchor="start">ENCLOSURE + PCB / FRONT VIEW</text>
+<rect x="104.0" y="173.0" width="162.8" height="524.8" rx="12" fill="#233644" stroke="#7792a0" stroke-width="1.2"/>
+<rect x="111.2" y="180.2" width="148.4" height="510.4" rx="5" fill="#16232d" stroke="#485c67" stroke-width="1.2"/>
+<polygon points="113.4,187.4 257.4,187.4 257.4,683.4 209.4,683.4 209.4,643.4 161.4,643.4 161.4,683.4 113.4,683.4" fill="#17483e" stroke="#67b598" stroke-width="1.5"/>
+<rect x="149.4" y="187.4" width="72.0" height="102.0" rx="2" fill="#697581" stroke="#bfd0d6" stroke-width="1.2"/>
+<text x="185.4" y="239.4" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="bold" text-anchor="middle">ESP32</text>
+<text x="185.4" y="254.4" fill="#e2e9ee" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="middle">18 × 25.5</text>
+<rect x="149.4" y="187.4" width="72.0" height="26.0" rx="2" fill="#998250" stroke="#cfb967" stroke-width="1.2"/>
+<text x="185.4" y="205.8" fill="#fff7cc" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="middle">2.4 GHz</text>
+<rect x="135.4" y="319.4" width="100.0" height="40.0" rx="2" fill="#774c31" stroke="#bfd0d6" stroke-width="1.2"/>
+<text x="185.4" y="340.4" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="bold" text-anchor="middle">HF FERRITE</text>
+<rect x="131.2" y="399.59999999999997" width="108.4" height="103.6" rx="2" fill="#24282b" stroke="#bfd0d6" stroke-width="1.2"/>
+<text x="185.4" y="452.4" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="bold" text-anchor="middle">LF ID-12LA-HE</text>
+<text x="185.4" y="467.4" fill="#e2e9ee" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="middle">MAX 27.1 × 25.9</text>
+<rect x="135.4" y="506.59999999999997" width="100.0" height="65.6" rx="2" fill="#315d82" stroke="#bfd0d6" stroke-width="1.2"/>
+<text x="185.4" y="540.4" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="bold" text-anchor="middle">PN532 MINI</text>
+<text x="185.4" y="555.4" fill="#e2e9ee" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="normal" text-anchor="middle">25 × 16.4</text>
+<rect x="123.19999999999999" y="586.0" width="48.8" height="32.4" rx="2" fill="#48515a" stroke="#bfd0d6" stroke-width="1.2"/>
+<text x="147.6" y="603.1999999999999" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="bold" text-anchor="middle">3.3 V</text>
+<rect x="191.2" y="586.0" width="48.8" height="32.4" rx="2" fill="#48515a" stroke="#bfd0d6" stroke-width="1.2"/>
+<text x="215.6" y="603.1999999999999" fill="#ffffff" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="bold" text-anchor="middle">5 V</text>
+<rect x="118.2" y="537.4" width="36.0" height="36.0" rx="2" fill="none" stroke="#e7bc7f" stroke-width="1.2" stroke-dasharray="4 3"/>
+<circle cx="185.4" cy="307.4" r="8.0" fill="#d8f5de" stroke="#d8f5de" stroke-width="1.2"/>
+<circle cx="125.4" cy="383.4" r="12.0" fill="none" stroke="#e2aa64" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="125.4" cy="383.4" r="4.4" fill="#101b24" stroke="#e4cbaa" stroke-width="1.2"/>
+<circle cx="125.4" cy="663.4" r="12.0" fill="none" stroke="#e2aa64" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="125.4" cy="663.4" r="4.4" fill="#101b24" stroke="#e4cbaa" stroke-width="1.2"/>
+<circle cx="245.4" cy="383.4" r="12.0" fill="none" stroke="#e2aa64" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="245.4" cy="383.4" r="4.4" fill="#101b24" stroke="#e4cbaa" stroke-width="1.2"/>
+<circle cx="245.4" cy="663.4" r="12.0" fill="none" stroke="#e2aa64" stroke-width="1.2" stroke-dasharray="3 3"/>
+<circle cx="245.4" cy="663.4" r="4.4" fill="#101b24" stroke="#e4cbaa" stroke-width="1.2"/>
+<rect x="161.4" y="643.0" width="48.0" height="20.0" rx="10" fill="#c68d45" stroke="#f7c682" stroke-width="1.2"/>
+<text x="185.4" y="674.2" fill="#fff0d0" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="normal" text-anchor="middle">CABLE</text>
+<line x1="104.0" y1="157.0" x2="266.8" y2="157.0" stroke="#b7c8ce" stroke-width="1"/>
+<line x1="104.0" y1="153.0" x2="104.0" y2="161.0" stroke="#b7c8ce" stroke-width="1"/>
+<line x1="266.8" y1="153.0" x2="266.8" y2="161.0" stroke="#b7c8ce" stroke-width="1"/>
+<text x="185.4" y="149.0" fill="#e7f0f4" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="middle">40.7</text>
+<line x1="72.0" y1="173.0" x2="72.0" y2="697.8" stroke="#b7c8ce" stroke-width="1"/>
+<line x1="68.0" y1="173.0" x2="76.0" y2="173.0" stroke="#b7c8ce" stroke-width="1"/>
+<line x1="68.0" y1="697.8" x2="76.0" y2="697.8" stroke="#b7c8ce" stroke-width="1"/>
+<text x="52.0" y="435.4" fill="#e7f0f4" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="middle">131.2</text>
+<line x1="104.0" y1="721.8" x2="266.8" y2="721.8" stroke="#b7c8ce" stroke-width="1"/>
+<line x1="104.0" y1="717.8" x2="104.0" y2="725.8" stroke="#b7c8ce" stroke-width="1"/>
+<line x1="266.8" y1="717.8" x2="266.8" y2="725.8" stroke="#b7c8ce" stroke-width="1"/>
+<text x="185.4" y="745.8" fill="#e7f0f4" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="middle">External</text>
+<line x1="266.8" y1="307.4" x2="336" y2="307.4" stroke="#b8d7c2" stroke-width="1"/>
+<text x="345" y="311.4" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">Ø4 diffuser / LED at PCB (118,80)</text>
+<line x1="266.8" y1="347.4" x2="336" y2="347.4" stroke="#c98b5b" stroke-width="1"/>
+<text x="345" y="351.4" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">25 × 10 antenna; thickness unverified</text>
+<line x1="266.8" y1="386.2" x2="336" y2="386.2" stroke="#e8b76e" stroke-width="1"/>
+<text x="345" y="390.2" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">4 × Ø2.2 NPTH, Ø6 component reserve</text>
+<line x1="266.8" y1="457.0" x2="336" y2="457.0" stroke="#9eaeb6" stroke-width="1"/>
+<text x="345" y="461.0" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">LF maximum body 6.6 high</text>
+<line x1="266.8" y1="607.4" x2="336" y2="607.4" stroke="#cbbcaf" stroke-width="1"/>
+<text x="345" y="611.4" fill="#ffb771" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">MAX regulator 10.6 → 0.4 pocket clearance</text>
+<line x1="266.8" y1="661.0" x2="336" y2="661.0" stroke="#e8b76e" stroke-width="1"/>
+<text x="345" y="665.0" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">12 × 10 PCB notch + rear cable exit</text>
+<text x="783" y="141" fill="#a2c5d7" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" text-anchor="start">DEPTH STACK / SCHEMATIC SECTION</text>
+<rect x="783" y="265" width="176.0" height="200" rx="0" fill="#233644" stroke="#7792a0" stroke-width="1.2"/>
+<rect x="783" y="265" width="20" height="200" rx="0" fill="#516575" stroke="#9aacb5" stroke-width="1.2"/>
+<rect x="823" y="265" width="16.0" height="200" rx="0" fill="#277a65" stroke="#7fc4a7" stroke-width="1.2"/>
+<rect x="945.0" y="265" width="14.0" height="200" rx="0" fill="#516575" stroke="#9aacb5" stroke-width="1.2"/>
+<rect x="945.0" y="293" width="4.0" height="74" rx="0" fill="#16232d" stroke="#ffc073" stroke-width="1.2"/>
+<rect x="839.0" y="303" width="106.0" height="54" rx="0" fill="#53595e" stroke="#d7c8ac" stroke-width="1.2"/>
+<line x1="947.0" y1="315" x2="1008" y2="315" stroke="#ffb251" stroke-width="1"/>
+<text x="1018" y="319" fill="#ffbd68" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" text-anchor="start">0.4 AFTER POCKET</text>
+<text x="1018" y="341" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">10.6 max regulator; roof locally 1.0</text>
+<text x="1018" y="363" fill="#ffc58f" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">Remaining tolerance stack unresolved</text>
+<rect x="798.0" y="389" width="5.0" height="50" rx="0" fill="#16232d" stroke="#d3b47b" stroke-width="1.2"/>
+<rect x="804.0" y="398" width="19.0" height="30" rx="0" fill="#a99570" stroke="#d8c08f" stroke-width="1.2"/>
+<line x1="823" y1="413" x2="1008" y2="413" stroke="#d3b47b" stroke-width="1"/>
+<text x="1018" y="417" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">Rear piezo: 0.6 nominal clearance</text>
+<text x="1018" y="439" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">0.5 rear pocket; remaining wall 1.5</text>
+<line x1="783" y1="243" x2="959.0" y2="243" stroke="#b7c8ce" stroke-width="1"/>
+<line x1="783" y1="239" x2="783" y2="247" stroke="#b7c8ce" stroke-width="1"/>
+<line x1="959.0" y1="239" x2="959.0" y2="247" stroke="#b7c8ce" stroke-width="1"/>
+<text x="871" y="231" fill="#e7f0f4" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="middle">17.6 external depth</text>
+<line x1="783" y1="465" x2="783" y2="488" stroke="#5d7480" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="783" y1="488" x2="994" y2="488" stroke="#5d7480" stroke-width="1"/>
+<text x="1004" y="492" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">z0 rear</text>
+<line x1="803" y1="465" x2="803" y2="518" stroke="#5d7480" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="803" y1="518" x2="994" y2="518" stroke="#5d7480" stroke-width="1"/>
+<text x="1004" y="522" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">z2 inside rear</text>
+<line x1="823" y1="465" x2="823" y2="548" stroke="#5d7480" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="823" y1="548" x2="994" y2="548" stroke="#5d7480" stroke-width="1"/>
+<text x="1004" y="552" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">z4 PCB back</text>
+<line x1="839.0" y1="465" x2="839.0" y2="578" stroke="#5d7480" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="839.0" y1="578" x2="994" y2="578" stroke="#5d7480" stroke-width="1"/>
+<text x="1004" y="582" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">z5.6 component face</text>
+<line x1="945.0" y1="465" x2="945.0" y2="608" stroke="#5d7480" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="945.0" y1="608" x2="994" y2="608" stroke="#5d7480" stroke-width="1"/>
+<text x="1004" y="612" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">z16.2 inner roof</text>
+<line x1="959.0" y1="465" x2="959.0" y2="638" stroke="#5d7480" stroke-width="1" stroke-dasharray="3 3"/>
+<line x1="959.0" y1="638" x2="994" y2="638" stroke="#5d7480" stroke-width="1"/>
+<text x="1004" y="642" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">z17.6 front</text>
+<text x="783" y="194" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">Rear → front; PCB thickness 1.6</text>
+<text x="783" y="217" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">2.0 rear plate · 1.8 walls · 1.4 front face</text>
+<line x1="45" y1="765" x2="1455" y2="765" stroke="#375363" stroke-width="1"/>
+<text x="45" y="800" fill="#a2c5d7" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="bold" text-anchor="start">PCB OUTLINE / DATUMS</text>
+<text x="45" y="827" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="normal" text-anchor="start">KiCad outline: (100,50) → (136,50) → (136,174) → (124,174)</text>
+<text x="45" y="850" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="normal" text-anchor="start">→ (124,164) → (112,164) → (112,174) → (100,174) → close.</text>
+<text x="45" y="884" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="normal" text-anchor="start">Holes: (103,99), (133,99), (103,169), (133,169).</text>
+<text x="45" y="908" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="normal" text-anchor="start">PCB 36 × 124; body centered in enclosure at x2.35 / y3.60.</text>
+<text x="45" y="932" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="normal" text-anchor="start">Clearance inside side walls: 0.55 each side; ends: 1.80 each end.</text>
+<text x="45" y="966" fill="#a2c5d7" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="bold" text-anchor="start">EDITABLE SOURCES</text>
+<text x="45" y="991" fill="#d8e6ed" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">OpenDual-Reader-enclosure.scad · drawing_source.py · mechanical-fit.md</text>
+<text x="45" y="1023" fill="#99aebc" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">Drawing generated from dimensions; not an OpenSCAD solid render.</text>
+<text x="783" y="800" fill="#ffc073" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="bold" text-anchor="start">RELEASE BLOCKERS</text>
+<text x="783" y="828" fill="#efcfac" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">• Roof pockets give 0.4 clearance; tolerance stack unresolved.</text>
+<text x="783" y="855" fill="#efcfac" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">• LF worst-case pins reach z0.9: 1.1 mm rear-plate conflict.</text>
+<text x="783" y="882" fill="#efcfac" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">• Cable jacket, bend radius, tie access and antenna lead routing.</text>
+<text x="783" y="909" fill="#efcfac" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">• LF/HF edge gap 10.05 mm is not RF validation.</text>
+<text x="783" y="936" fill="#efcfac" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">• Wall screw heads, buzzer acoustics, tamper actuator and sealing.</text>
+<text x="783" y="963" fill="#efcfac" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">• Exact ESP32 antenna rules; nearby metal and ferrite trials.</text>
+<text x="783" y="990" fill="#efcfac" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start">• Native STL exports exist; physical assembly remains untested.</text>
+<text x="783" y="1031" fill="#ffba77" font-family="Segoe UI,Arial,sans-serif" font-size="14" font-weight="bold" text-anchor="start">DO NOT ORDER ENCLOSURES FROM THIS FIT STUDY.</text>
+</svg>

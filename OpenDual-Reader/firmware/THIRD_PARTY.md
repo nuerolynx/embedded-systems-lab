@@ -1,0 +1,7 @@
+# Dependency provenance
+
+LibOSDP is vendored from [osdp-dev/libosdp v3.2.6](https://github.com/osdp-dev/libosdp/releases/tag/v3.2.6), commit `9ff9013dbade1867b250f6f789ac426807903ab5`. Its c-utils submodule commit is `33c08a2bf9ff7fb295677c28174180dec690270a`. Both upstream LICENSE files are retained. The PlatformIO manifest is locally changed to exclude upstream TinyAES, TinyAES implementation, and platformio.cpp: upstream v3.2.6 TinyAES randomness uses libc `rand()`. OpenDual supplies AES via Espressif's bundled mbedTLS and random bytes through `esp_fill_random`, with `bootloader_random_enable()` active while Wi-Fi, Bluetooth and ADC application use remain disabled. The local monotonic clock uses `esp_timer_get_time` to avoid Arduino millis rollover.
+
+PlatformIO Core6.1.18, Espressif32 platform6.10.0, Arduino ESP32 framework2.0.17 (`3.20017.241212+sha.dcc1105b` package), Xtensa GCC8.4.0+2021r2-patch5, esptool4.5.1 (`1.40501.0`), and SCons tool4.40801.0 are pinned. Framework includes Arduino SPI, Preferences, mbedTLS and ESP-IDF UART/RMT/LEDC/timer APIs; no floating PN532 dependency is used.
+
+The PN532 transport is project source derived from the [NXP PN532 user manual](https://www.nxp.com/docs/en/user-guide/141520.pdf). LF framing follows the [ID Innovations provisional X1.2 datasheet](https://www.id-innovations.com/ID-3%2612%2620LA-HE%28en%29new.pdf), retaining unresolved HID ASCII packing as raw data. Review module firmware licensing separately: these RF modules are not wholly open-source hardware/firmware.

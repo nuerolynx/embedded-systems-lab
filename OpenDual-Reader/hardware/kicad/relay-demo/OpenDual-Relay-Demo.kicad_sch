@@ -1,0 +1,1263 @@
+(kicad_sch(version 20250114)(generator "eeschema")(uuid 75681df8-d716-5c51-b1fb-96e55bcb25b1)(paper "A4")(title_block(title "OpenDual optional relay demonstration")(rev "A0 BENCH"))(lib_symbols(symbol "RelayDemo:Relay"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "K"
+			(at 11.43 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G5V-1"
+			(at 11.43 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Omron_G5V-1"
+			(at 28.702 -0.762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g5v_1.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ultra-miniature, Highly Sensitive SPDT Relay for Signal Circuits"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Single Pole Relay SPDT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Relay*SPDT*Omron*G5V?1*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Relay_0_0"
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Relay_0_1"
+			(rectangle
+				(start -10.16 5.08)
+				(end 10.16 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -8.255 1.905)
+				(end -1.905 -1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -7.62 -1.905) (xy -2.54 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 5.08) (xy -5.08 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.08 -5.08) (xy -5.08 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 0) (xy 0 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 3.175 3.81)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.08 -2.54) (xy 5.08 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "Relay_1_1"
+			(pin passive line
+				(at 2.54 7.62 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 7.62 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -7.62 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 -7.62 90)
+				(length 2.54)
+				(hide yes)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 7.62 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "RelayDemo:NPN"
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "Q"
+			(at 5.08 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NPN_BEC"
+			(at 5.08 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 5.08 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "NPN transistor, base/emitter/collector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=B 2=E 3=C"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "BJT"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "NPN_0_1"
+			(polyline
+				(pts
+					(xy -2.54 0) (xy 0.635 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 1.905) (xy 0.635 -1.905)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.27 0)
+				(radius 2.8194)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "NPN_1_1"
+			(polyline
+				(pts
+					(xy 0.635 0.635) (xy 2.54 2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 -0.635) (xy 2.54 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "E"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "RelayDemo:D"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "D_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "RelayDemo:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "RelayDemo:J2"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "J2_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)(symbol "RelayDemo:J3"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "J3_1_1"
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	))(text "OPTIONAL RELAY EXPANSION / SEPARATE BOARD"(at 25 20 0)(effects(font(size 2.4 2.4))(justify left))(uuid d822d444-5aca-57af-9746-48bd84c00782))(symbol(lib_id "RelayDemo:Relay")(at 144.78 64.77 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid 65e2cf68-9b31-5f9e-9842-cf2b26005f5e)(property "Reference" "K1"(at 166.78 63.49999999999999 0)(effects(font(size 1.016 1.016))))(property "Value" "G5V-1 DC12"(at 166.78 66.03999999999999 0)(effects(font(size 1.016 1.016))))(property "Footprint" "RelayDemo:Relay_SPDT_Omron_G5V-1"(at 144.78 64.77 0)(effects(font(size 1.016 1.016))(hide yes)))(property "MPN" "G5V-1 DC12"(at 144.78 64.77 0)(effects(font(size 1.016 1.016))(hide yes)))(property "Manufacturer" "Omron"(at 144.78 64.77 0)(effects(font(size 1.016 1.016))(hide yes)))(property "Datasheet" "https://components.omron.com/us-en/system/files/2023-01/datasheet_pdf/K048-E1.pdf"(at 144.78 64.77 0)(effects(font(size 1.016 1.016))(hide yes)))(pin "1"(uuid ea27623f-2e5e-5244-9b31-ee8c3963b5fb))(pin "2"(uuid 7323135d-812a-5011-a55b-dbbf51e3296f))(pin "5"(uuid 70d879b4-ed84-5b16-92d3-8e5512c6070b))(pin "6"(uuid 6aeef4ee-7d9c-5576-91a2-4781e25b4468))(pin "9"(uuid b6dc43d0-02d5-5e63-90fa-5f2d713575d6))(pin "10"(uuid e99f2891-2a25-5311-a532-7c9d5709450b))(instances(project "OpenDual-Relay-Demo"(path "/75681df8-d716-5c51-b1fb-96e55bcb25b1"(reference "K1")(unit 1)))))(wire(pts(xy 147.32 57.15)(xy 147.32 52.07))(stroke(width 0)(type default))(uuid cc5eb69d-a915-5bab-919b-4d6a0333f47a))(label "CONTACT_NC"(at 147.32 52.07 90)(effects(font(size 0.9 0.9))(justify left bottom))(uuid 27c6dd86-de38-5adf-b46c-252afe4f2179))(wire(pts(xy 139.7 57.15)(xy 139.7 52.07))(stroke(width 0)(type default))(uuid 6b8d7493-1179-5341-b3e6-2835049c6c0b))(label "+12V_EXT"(at 139.7 52.07 90)(effects(font(size 0.9 0.9))(justify left bottom))(uuid 907ada73-936e-5989-9d5a-d8e9ab5051fc))(wire(pts(xy 149.86 72.39)(xy 149.86 77.47))(stroke(width 0)(type default))(uuid 9eadca2c-567b-563d-abee-ce3fa44272af))(label "CONTACT_COM"(at 149.86 77.47 90)(effects(font(size 0.9 0.9))(justify right bottom))(uuid 88fbfba8-ce96-5ecb-b524-42053d329e1d))(wire(pts(xy 139.7 72.39)(xy 139.7 77.47))(stroke(width 0)(type default))(uuid 8ab92a9c-f40d-558f-941a-456283b44e79))(label "COIL_LOW"(at 139.7 77.47 90)(effects(font(size 0.9 0.9))(justify right bottom))(uuid fb3c225e-22b9-5af3-b5f0-05da3084b250))(wire(pts(xy 152.4 57.15)(xy 152.4 52.07))(stroke(width 0)(type default))(uuid b3e9d65d-dd77-5b7e-9fc5-9b1767bba6cc))(label "CONTACT_NO"(at 152.4 52.07 90)(effects(font(size 0.9 0.9))(justify left bottom))(uuid aca53399-9983-5ff1-803c-342ff38127ca))(symbol(lib_id "RelayDemo:NPN")(at 105.41 85.09 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid 85afe1c2-1df9-5629-b259-65a4c159590a)(property "Reference" "Q1"(at 117.41 83.82000000000001 0)(effects(font(size 1.016 1.016))))(property "Value" "MMBT3904LT1G"(at 121.41 86.36 0)(effects(font(size 1.016 1.016))))(property "Footprint" "RelayDemo:SOT-23"(at 105.41 85.09 0)(effects(font(size 1.016 1.016))(hide yes)))(property "MPN" "MMBT3904LT1G"(at 105.41 85.09 0)(effects(font(size 1.016 1.016))(hide yes)))(property "Manufacturer" "onsemi"(at 105.41 85.09 0)(effects(font(size 1.016 1.016))(hide yes)))(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/mmbt3904lt1-d.pdf"(at 105.41 85.09 0)(effects(font(size 1.016 1.016))(hide yes)))(pin "1"(uuid 80e2039f-18ce-5c41-8e02-700858d593dc))(pin "2"(uuid 39a56e80-a091-54a3-a44c-e0aa087e06b2))(pin "3"(uuid 9894707e-23a8-52c6-89ad-f5d0b6603b85))(instances(project "OpenDual-Relay-Demo"(path "/75681df8-d716-5c51-b1fb-96e55bcb25b1"(reference "Q1")(unit 1)))))(wire(pts(xy 100.33 85.09)(xy 95.25 85.09))(stroke(width 0)(type default))(uuid b7994e65-3d50-5a65-ba70-206569313add))(label "BASE"(at 95.25 85.09 0)(effects(font(size 0.9 0.9))(justify right bottom))(uuid 382f2587-4d5d-52c9-a76f-f1c3b6e2652d))(wire(pts(xy 107.95 90.17)(xy 107.95 95.25))(stroke(width 0)(type default))(uuid 10a4a677-e071-5f06-b4fe-021c3b0a82fb))(label "GND"(at 107.95 95.25 90)(effects(font(size 0.9 0.9))(justify right bottom))(uuid bc078ec1-33b9-5291-b8bd-f6f883db69fb))(wire(pts(xy 107.95 80.01)(xy 107.95 74.93))(stroke(width 0)(type default))(uuid b64d5151-1455-5600-b962-f6c627625e16))(label "COIL_LOW"(at 107.95 74.93 90)(effects(font(size 0.9 0.9))(justify left bottom))(uuid 7d60ea8f-232c-5fd1-a949-ad7f27d1f9c7))(symbol(lib_id "RelayDemo:D")(at 105.41 54.61 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid 0d41b3b2-fc54-5c8e-9608-274716646041)(property "Reference" "D1"(at 105.41 49.53 0)(effects(font(size 1.016 1.016))))(property "Value" "1N4148W-7-F"(at 105.41 59.69 0)(effects(font(size 1.016 1.016))))(property "Footprint" "RelayDemo:D_SOD-123"(at 105.41 54.61 0)(effects(font(size 1.016 1.016))(hide yes)))(property "MPN" "1N4148W-7-F"(at 105.41 54.61 0)(effects(font(size 1.016 1.016))(hide yes)))(property "Manufacturer" "Diodes Incorporated"(at 105.41 54.61 0)(effects(font(size 1.016 1.016))(hide yes)))(property "Datasheet" "https://www.diodes.com/datasheet/download/1N4148W.pdf"(at 105.41 54.61 0)(effects(font(size 1.016 1.016))(hide yes)))(pin "1"(uuid 945790ce-bc60-52a7-86b5-fc75c43ac5c8))(pin "2"(uuid 00bf5113-d743-5be7-bd50-258727f3a79b))(instances(project "OpenDual-Relay-Demo"(path "/75681df8-d716-5c51-b1fb-96e55bcb25b1"(reference "D1")(unit 1)))))(wire(pts(xy 101.6 54.61)(xy 96.52 54.61))(stroke(width 0)(type default))(uuid 4de45a77-15ec-52bf-a4ff-f494055819fa))(label "+12V_EXT"(at 96.52 54.61 0)(effects(font(size 0.9 0.9))(justify right bottom))(uuid 7d7c6c90-69e4-5034-a566-4a659eda2d4f))(wire(pts(xy 109.22 54.61)(xy 114.3 54.61))(stroke(width 0)(type default))(uuid 7a4716b7-965c-5e4e-aa6e-4ca7b73312e7))(label "COIL_LOW"(at 114.3 54.61 0)(effects(font(size 0.9 0.9))(justify left bottom))(uuid e43b5009-4293-5ec8-b5a2-5b6652a2f53b))(symbol(lib_id "RelayDemo:R")(at 64.77 80.01 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid 1206589b-a976-5d2c-9383-374db012a7cc)(property "Reference" "R1"(at 69.77 78.74000000000001 0)(effects(font(size 1.016 1.016))))(property "Value" "1k"(at 69.77 81.28 0)(effects(font(size 1.016 1.016))))(property "Footprint" "RelayDemo:R_0603_1608Metric"(at 64.77 80.01 0)(effects(font(size 1.016 1.016))(hide yes)))(property "MPN" "RC0603FR-071KL"(at 64.77 80.01 0)(effects(font(size 1.016 1.016))(hide yes)))(property "Manufacturer" "Yageo"(at 64.77 80.01 0)(effects(font(size 1.016 1.016))(hide yes)))(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-071KL"(at 64.77 80.01 0)(effects(font(size 1.016 1.016))(hide yes)))(pin "1"(uuid 4937aca3-a738-52fc-8855-e4ed97dd8842))(pin "2"(uuid 739f5246-fabe-54ab-a6b0-fd59df03d1e6))(instances(project "OpenDual-Relay-Demo"(path "/75681df8-d716-5c51-b1fb-96e55bcb25b1"(reference "R1")(unit 1)))))(wire(pts(xy 64.77 76.2)(xy 64.77 71.12))(stroke(width 0)(type default))(uuid 4955011e-ce8f-5b10-b891-a167c371d365))(label "RELAY_EN"(at 64.77 71.12 90)(effects(font(size 0.9 0.9))(justify left bottom))(uuid af6df7f7-28e7-5239-be68-07049b0c18cc))(wire(pts(xy 64.77 83.82000000000001)(xy 64.77 88.9))(stroke(width 0)(type default))(uuid 4d185527-fe87-502c-a5eb-7cca3cff2e69))(label "BASE"(at 64.77 88.9 90)(effects(font(size 0.9 0.9))(justify right bottom))(uuid e3659d9e-3ee7-52d3-9f7c-5046e06f5353))(symbol(lib_id "RelayDemo:R")(at 80.01 105.41 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid 63786a70-58c9-5e7f-87c5-946a1f14e079)(property "Reference" "R2"(at 85.01 104.14 0)(effects(font(size 1.016 1.016))))(property "Value" "100k"(at 85.01 106.67999999999999 0)(effects(font(size 1.016 1.016))))(property "Footprint" "RelayDemo:R_0603_1608Metric"(at 80.01 105.41 0)(effects(font(size 1.016 1.016))(hide yes)))(property "MPN" "RC0603FR-07100KL"(at 80.01 105.41 0)(effects(font(size 1.016 1.016))(hide yes)))(property "Manufacturer" "Yageo"(at 80.01 105.41 0)(effects(font(size 1.016 1.016))(hide yes)))(property "Datasheet" "https://yageogroup.com/component-documentation/download/specsheet/RC0603FR-07100KL"(at 80.01 105.41 0)(effects(font(size 1.016 1.016))(hide yes)))(pin "1"(uuid 556f622d-a574-5aad-912d-f3e7502c0e06))(pin "2"(uuid acdc1004-976a-5515-8e3e-974db8b2f6cb))(instances(project "OpenDual-Relay-Demo"(path "/75681df8-d716-5c51-b1fb-96e55bcb25b1"(reference "R2")(unit 1)))))(wire(pts(xy 80.01 101.6)(xy 80.01 96.52))(stroke(width 0)(type default))(uuid 5b6eef5e-3ffa-534b-a034-d78d33c3ded0))(label "BASE"(at 80.01 96.52 90)(effects(font(size 0.9 0.9))(justify left bottom))(uuid f25ba451-f688-5df8-8e9e-9637d73ea2ae))(wire(pts(xy 80.01 109.22)(xy 80.01 114.3))(stroke(width 0)(type default))(uuid 20fbaf77-238a-559f-8525-bd30d8577287))(label "GND"(at 80.01 114.3 90)(effects(font(size 0.9 0.9))(justify right bottom))(uuid ad48a8a4-5090-5af9-b7de-c52adb59758b))(symbol(lib_id "RelayDemo:J2")(at 44.45 54.61 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid d6e4886d-8c98-5fb0-9314-da236cd3d3b8)(property "Reference" "J1"(at 44.45 44.45 0)(effects(font(size 1.016 1.016))))(property "Value" "LOGIC FROM READER J5"(at 44.45 46.99 0)(effects(font(size 1.016 1.016))))(property "Footprint" "RelayDemo:Solder2"(at 44.45 54.61 0)(effects(font(size 1.016 1.016))(hide yes)))(property "MPN" "PCB solder holes"(at 44.45 54.61 0)(effects(font(size 1.016 1.016))(hide yes)))(property "Manufacturer" "PCB feature"(at 44.45 54.61 0)(effects(font(size 1.016 1.016))(hide yes)))(property "Datasheet" ""(at 44.45 54.61 0)(effects(font(size 1.016 1.016))(hide yes)))(pin "1"(uuid 3bb5e5d3-220a-5f7b-b756-ca7fa5f3f288))(pin "2"(uuid 016e8152-cbe9-53d9-8484-2484d9cafe9e))(instances(project "OpenDual-Relay-Demo"(path "/75681df8-d716-5c51-b1fb-96e55bcb25b1"(reference "J1")(unit 1)))))(wire(pts(xy 39.370000000000005 54.61)(xy 34.29 54.61))(stroke(width 0)(type default))(uuid c0c30be8-266d-56c5-81f4-2702d4655da9))(label "GND"(at 34.29 54.61 0)(effects(font(size 0.9 0.9))(justify right bottom))(uuid 7ed0e417-24fe-5779-9e9c-1e4279f8bd1a))(wire(pts(xy 39.370000000000005 57.15)(xy 34.29 57.15))(stroke(width 0)(type default))(uuid 986bc301-050f-502b-b9bb-057062b5c08b))(label "RELAY_EN"(at 34.29 57.15 0)(effects(font(size 0.9 0.9))(justify right bottom))(uuid 2c5fa204-2330-557e-8d02-8ab9d527c84b))(symbol(lib_id "RelayDemo:J2")(at 44.45 115.57000000000001 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid e44ca3d0-8ced-554e-8bd4-bf2934b5efb4)(property "Reference" "J2"(at 44.45 105.41000000000001 0)(effects(font(size 1.016 1.016))))(property "Value" "REGULATED 12V INPUT"(at 44.45 107.95 0)(effects(font(size 1.016 1.016))))(property "Footprint" "RelayDemo:Solder2"(at 44.45 115.57000000000001 0)(effects(font(size 1.016 1.016))(hide yes)))(property "MPN" "PCB solder holes"(at 44.45 115.57000000000001 0)(effects(font(size 1.016 1.016))(hide yes)))(property "Manufacturer" "PCB feature"(at 44.45 115.57000000000001 0)(effects(font(size 1.016 1.016))(hide yes)))(property "Datasheet" ""(at 44.45 115.57000000000001 0)(effects(font(size 1.016 1.016))(hide yes)))(pin "1"(uuid 08c1d0a2-1d7c-5934-b3f5-b41130563c03))(pin "2"(uuid 2b90ebc8-1d4a-5e03-aac0-54461b3e7a88))(instances(project "OpenDual-Relay-Demo"(path "/75681df8-d716-5c51-b1fb-96e55bcb25b1"(reference "J2")(unit 1)))))(wire(pts(xy 39.370000000000005 115.57000000000001)(xy 34.29 115.57))(stroke(width 0)(type default))(uuid 6568aa56-070f-51ab-8c33-afab31d26b78))(label "+12V_EXT"(at 34.29 115.57 0)(effects(font(size 0.9 0.9))(justify right bottom))(uuid c3492ade-e065-5bbc-ad1a-cd30417c418e))(wire(pts(xy 39.370000000000005 118.11000000000001)(xy 34.29 118.11))(stroke(width 0)(type default))(uuid efb5c62c-7357-5428-84cc-4efa959d0d92))(label "GND"(at 34.29 118.11 0)(effects(font(size 0.9 0.9))(justify right bottom))(uuid 59063221-8511-5ec8-b3a0-63fbbd6007f0))(symbol(lib_id "RelayDemo:J3")(at 195.58 64.77 0)(unit 1)(in_bom yes)(on_board yes)(dnp no)(uuid d9c498fa-1fff-5114-9bae-d4b58e95ccc1)(property "Reference" "J3"(at 195.58 54.61 0)(effects(font(size 1.016 1.016))))(property "Value" "NC / COM / NO"(at 195.58 57.15 0)(effects(font(size 1.016 1.016))))(property "Footprint" "RelayDemo:Solder3"(at 195.58 64.77 0)(effects(font(size 1.016 1.016))(hide yes)))(property "MPN" "PCB solder holes"(at 195.58 64.77 0)(effects(font(size 1.016 1.016))(hide yes)))(property "Manufacturer" "PCB feature"(at 195.58 64.77 0)(effects(font(size 1.016 1.016))(hide yes)))(property "Datasheet" ""(at 195.58 64.77 0)(effects(font(size 1.016 1.016))(hide yes)))(pin "1"(uuid 19a0910f-cf72-5db8-a8ac-97d8733d83eb))(pin "2"(uuid 24476a5e-2c1f-5a61-b24e-d108528d0049))(pin "3"(uuid ae11d59f-a348-5ff7-81ff-3a8bd74be9e6))(instances(project "OpenDual-Relay-Demo"(path "/75681df8-d716-5c51-b1fb-96e55bcb25b1"(reference "J3")(unit 1)))))(wire(pts(xy 190.5 62.23)(xy 185.42 62.23))(stroke(width 0)(type default))(uuid dc2a583d-7ec1-5aaf-a09d-188f92c50bdc))(label "CONTACT_NC"(at 185.42 62.23 0)(effects(font(size 0.9 0.9))(justify right bottom))(uuid 3808990c-f0fd-592e-b18e-cf5298e9ae1d))(wire(pts(xy 190.5 64.77)(xy 185.42 64.77))(stroke(width 0)(type default))(uuid 3dc37cda-43d0-5b0e-a770-7b777043a152))(label "CONTACT_COM"(at 185.42 64.77 0)(effects(font(size 0.9 0.9))(justify right bottom))(uuid 55455f35-83ac-5dba-afa0-3b343a3a30f7))(wire(pts(xy 190.5 67.31)(xy 185.42 67.31))(stroke(width 0)(type default))(uuid f6fb0dc1-29e1-5002-9354-33357bb1e2bc))(label "CONTACT_NO"(at 185.42 67.31 0)(effects(font(size 0.9 0.9))(justify right bottom))(uuid 4406b844-21a1-5403-a679-8b3427fb3ab5))(text "J1.1 GND -> reader J5.1; J1.2 RELAY_EN -> reader J5.2. Leave reader J5.3 unused."(at 25 145 0)(effects(font(size 1.27 1.27))(justify left))(uuid 5a9b75c1-534b-5d8d-8288-00373b74b22a))(text "J2.1: separate regulated +12V +/-5%; J2.2: GND, common with reader. Current limit100mA."(at 25 151 0)(effects(font(size 1.27 1.27))(justify left))(uuid c4d8f19c-0860-50aa-b98e-471aaa25ef35))(text "J3: 1 NC, 2 COM, 3 NO. Demonstration limit24VDC /0.5A RESISTIVE. No mains."(at 25 157 0)(effects(font(size 1.27 1.27))(justify left))(uuid 9259da0a-35a3-5f5d-afad-dcdd077cf0ff))(text "Driver active high. Coil current approximately12.5mA. Flyback diode slows release."(at 25 163 0)(effects(font(size 1.27 1.27))(justify left))(uuid 7b881e05-fff8-5d43-8194-32e68522686a))(text "Relay coil pins2/9; common5/6; NC1; NO10. No reader rail supplies coil or load."(at 25 169 0)(effects(font(size 1.27 1.27))(justify left))(uuid 9bc4af77-8f17-5391-bee9-7178c79e542d))(text "Bench prototype: verify pickup/dropout, diode polarity and actual contact mapping before use."(at 25 175 0)(effects(font(size 1.27 1.27))(justify left))(uuid 5e8454fe-8143-52d6-b90d-e0f49cc3d315))(sheet_instances(path "/"(page "1")))(embedded_fonts no))

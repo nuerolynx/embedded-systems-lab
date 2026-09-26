@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "RelayDemo") (type "KiCad") (uri "${KIPRJMOD}/RelayDemo.pretty") (options "") (descr "Project-local standard and solder-hole footprints")))

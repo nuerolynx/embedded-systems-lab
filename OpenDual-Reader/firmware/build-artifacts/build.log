@@ -1,0 +1,435 @@
+Processing opendual (platform: espressif32@6.10.0; board: esp32dev; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32dev.html
+PLATFORM: Espressif 32 (6.10.0) > Espressif ESP32 Dev Module
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 1.40501.0 (4.5.1) 
+ - tool-scons @ 4.40801.0 (4.8.1) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ deep+, Compatibility ~ soft
+Found 34 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Preferences @ 2.0.0
+|-- LibOSDP @ 3.2.6
+|-- SPI @ 2.0.0
+Building in release mode
+Compiling .pio\build\opendual\src\main.cpp.o
+Compiling .pio\build\opendual\src\osdp_crypto_esp32.cpp.o
+Building .pio\build\opendual\bootloader.bin
+Generating partitions .pio\build\opendual\partitions.bin
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Compiling .pio\build\opendual\libeb5\Preferences\Preferences.cpp.o
+Compiling .pio\build\opendual\libb12\utils\src\crc16.c.o
+Compiling .pio\build\opendual\libb12\utils\src\disjoint_set.c.o
+Compiling .pio\build\opendual\libb12\utils\src\list.c.o
+Compiling .pio\build\opendual\libb12\utils\src\logger.c.o
+Archiving .pio\build\opendual\libeb5\libPreferences.a
+Compiling .pio\build\opendual\libb12\utils\src\queue.c.o
+Compiling .pio\build\opendual\libb12\utils\src\slab.c.o
+Compiling .pio\build\opendual\libb12\utils\src\utils.c.o
+Compiling .pio\build\opendual\libb12\LibOSDP\osdp_common.c.o
+Compiling .pio\build\opendual\libb12\LibOSDP\osdp_cp.c.o
+Compiling .pio\build\opendual\libb12\LibOSDP\osdp_file.c.o
+Compiling .pio\build\opendual\libb12\LibOSDP\osdp_pd.c.o
+Compiling .pio\build\opendual\libb12\LibOSDP\osdp_phy.c.o
+Compiling .pio\build\opendual\libb12\LibOSDP\osdp_sc.c.o
+Compiling .pio\build\opendual\lib3f9\SPI\SPI.cpp.o
+Archiving .pio\build\opendual\libb12\libLibOSDP.a
+Compiling .pio\build\opendual\FrameworkArduino\Esp.cpp.o
+Archiving .pio\build\opendual\lib3f9\libSPI.a
+Compiling .pio\build\opendual\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\HWCDC.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\IPv6Address.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\StreamString.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\USB.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\USBCDC.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-i2c.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\opendual\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\opendual\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\opendual\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\opendual\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\opendual\FrameworkArduino\main.cpp.o
+Compiling .pio\build\opendual\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\opendual\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\opendual\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\opendual\libFrameworkArduino.a
+Linking .pio\build\opendual\firmware.elf
+Retrieving maximum program size .pio\build\opendual\firmware.elf
+Checking size .pio\build\opendual\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]   7.6% (used 24860 bytes from 327680 bytes)
+Flash: [==        ]  24.8% (used 325077 bytes from 1310720 bytes)
+Building .pio\build\opendual\firmware.bin
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+========================= [SUCCESS] Took 26.73 seconds =========================
+
+Processing wiegand (platform: espressif32@6.10.0; board: esp32dev; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32dev.html
+PLATFORM: Espressif 32 (6.10.0) > Espressif ESP32 Dev Module
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 1.40501.0 (4.5.1) 
+ - tool-scons @ 4.40801.0 (4.8.1) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ deep+, Compatibility ~ soft
+Found 34 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Preferences @ 2.0.0
+|-- LibOSDP @ 3.2.6
+|-- SPI @ 2.0.0
+Building in release mode
+Compiling .pio\build\wiegand\src\main.cpp.o
+Compiling .pio\build\wiegand\src\osdp_crypto_esp32.cpp.o
+Building .pio\build\wiegand\bootloader.bin
+Generating partitions .pio\build\wiegand\partitions.bin
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Compiling .pio\build\wiegand\libeb5\Preferences\Preferences.cpp.o
+Compiling .pio\build\wiegand\libb12\utils\src\crc16.c.o
+Compiling .pio\build\wiegand\libb12\utils\src\disjoint_set.c.o
+Compiling .pio\build\wiegand\libb12\utils\src\list.c.o
+Compiling .pio\build\wiegand\libb12\utils\src\logger.c.o
+Archiving .pio\build\wiegand\libeb5\libPreferences.a
+Compiling .pio\build\wiegand\libb12\utils\src\queue.c.o
+Compiling .pio\build\wiegand\libb12\utils\src\slab.c.o
+Compiling .pio\build\wiegand\libb12\utils\src\utils.c.o
+Compiling .pio\build\wiegand\libb12\LibOSDP\osdp_common.c.o
+Compiling .pio\build\wiegand\libb12\LibOSDP\osdp_cp.c.o
+Compiling .pio\build\wiegand\libb12\LibOSDP\osdp_file.c.o
+Compiling .pio\build\wiegand\libb12\LibOSDP\osdp_pd.c.o
+Compiling .pio\build\wiegand\libb12\LibOSDP\osdp_phy.c.o
+Compiling .pio\build\wiegand\libb12\LibOSDP\osdp_sc.c.o
+Compiling .pio\build\wiegand\lib3f9\SPI\SPI.cpp.o
+Archiving .pio\build\wiegand\libb12\libLibOSDP.a
+Compiling .pio\build\wiegand\FrameworkArduino\Esp.cpp.o
+Archiving .pio\build\wiegand\lib3f9\libSPI.a
+Compiling .pio\build\wiegand\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\HWCDC.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\IPv6Address.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\StreamString.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\USB.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\USBCDC.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-i2c.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\main.cpp.o
+Compiling .pio\build\wiegand\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\wiegand\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\wiegand\libFrameworkArduino.a
+Linking .pio\build\wiegand\firmware.elf
+Retrieving maximum program size .pio\build\wiegand\firmware.elf
+Checking size .pio\build\wiegand\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]   7.4% (used 24156 bytes from 327680 bytes)
+Flash: [==        ]  21.8% (used 286369 bytes from 1310720 bytes)
+Building .pio\build\wiegand\firmware.bin
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+========================= [SUCCESS] Took 32.20 seconds =========================
+
+Processing standalone (platform: espressif32@6.10.0; board: esp32dev; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32dev.html
+PLATFORM: Espressif 32 (6.10.0) > Espressif ESP32 Dev Module
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 1.40501.0 (4.5.1) 
+ - tool-scons @ 4.40801.0 (4.8.1) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ deep+, Compatibility ~ soft
+Found 34 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Preferences @ 2.0.0
+|-- LibOSDP @ 3.2.6
+|-- SPI @ 2.0.0
+Building in release mode
+Compiling .pio\build\standalone\src\main.cpp.o
+Compiling .pio\build\standalone\src\osdp_crypto_esp32.cpp.o
+Building .pio\build\standalone\bootloader.bin
+Generating partitions .pio\build\standalone\partitions.bin
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Compiling .pio\build\standalone\libeb5\Preferences\Preferences.cpp.o
+Compiling .pio\build\standalone\libb12\utils\src\crc16.c.o
+Compiling .pio\build\standalone\libb12\utils\src\disjoint_set.c.o
+Compiling .pio\build\standalone\libb12\utils\src\list.c.o
+Compiling .pio\build\standalone\libb12\utils\src\logger.c.o
+Archiving .pio\build\standalone\libeb5\libPreferences.a
+Compiling .pio\build\standalone\libb12\utils\src\queue.c.o
+Compiling .pio\build\standalone\libb12\utils\src\slab.c.o
+Compiling .pio\build\standalone\libb12\utils\src\utils.c.o
+Compiling .pio\build\standalone\libb12\LibOSDP\osdp_common.c.o
+Compiling .pio\build\standalone\libb12\LibOSDP\osdp_cp.c.o
+Compiling .pio\build\standalone\libb12\LibOSDP\osdp_file.c.o
+Compiling .pio\build\standalone\libb12\LibOSDP\osdp_pd.c.o
+Compiling .pio\build\standalone\libb12\LibOSDP\osdp_phy.c.o
+Compiling .pio\build\standalone\libb12\LibOSDP\osdp_sc.c.o
+Compiling .pio\build\standalone\lib3f9\SPI\SPI.cpp.o
+Archiving .pio\build\standalone\libb12\libLibOSDP.a
+Compiling .pio\build\standalone\FrameworkArduino\Esp.cpp.o
+Archiving .pio\build\standalone\lib3f9\libSPI.a
+Compiling .pio\build\standalone\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\HWCDC.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\IPv6Address.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\StreamString.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\USB.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\USBCDC.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-i2c.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\standalone\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\standalone\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\standalone\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\standalone\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\standalone\FrameworkArduino\main.cpp.o
+Compiling .pio\build\standalone\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\standalone\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\standalone\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\standalone\libFrameworkArduino.a
+Linking .pio\build\standalone\firmware.elf
+Retrieving maximum program size .pio\build\standalone\firmware.elf
+Checking size .pio\build\standalone\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]   7.1% (used 23396 bytes from 327680 bytes)
+Flash: [==        ]  21.4% (used 280045 bytes from 1310720 bytes)
+Building .pio\build\standalone\firmware.bin
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+========================= [SUCCESS] Took 28.97 seconds =========================
+
+Processing provision (platform: espressif32@6.10.0; board: esp32dev; framework: arduino)
+--------------------------------------------------------------------------------
+Verbose mode can be enabled via `-v, --verbose` option
+CONFIGURATION: https://docs.platformio.org/page/boards/espressif32/esp32dev.html
+PLATFORM: Espressif 32 (6.10.0) > Espressif ESP32 Dev Module
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+DEBUG: Current (cmsis-dap) External (cmsis-dap, esp-bridge, esp-prog, iot-bus-jtag, jlink, minimodule, olimex-arm-usb-ocd, olimex-arm-usb-ocd-h, olimex-arm-usb-tiny-h, olimex-jtag-tiny, tumpa)
+PACKAGES: 
+ - framework-arduinoespressif32 @ 3.20017.241212+sha.dcc1105b 
+ - tool-esptoolpy @ 1.40501.0 (4.5.1) 
+ - tool-scons @ 4.40801.0 (4.8.1) 
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+LDF: Library Dependency Finder -> https://bit.ly/configure-pio-ldf
+LDF Modes: Finder ~ deep+, Compatibility ~ soft
+Found 34 compatible libraries
+Scanning dependencies...
+Dependency Graph
+|-- Preferences @ 2.0.0
+|-- LibOSDP @ 3.2.6
+|-- SPI @ 2.0.0
+Building in release mode
+Compiling .pio\build\provision\src\main.cpp.o
+Compiling .pio\build\provision\src\osdp_crypto_esp32.cpp.o
+Building .pio\build\provision\bootloader.bin
+Generating partitions .pio\build\provision\partitions.bin
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 1 ELF section
+Successfully created esp32 image.
+Compiling .pio\build\provision\libeb5\Preferences\Preferences.cpp.o
+Compiling .pio\build\provision\libb12\utils\src\crc16.c.o
+Compiling .pio\build\provision\libb12\utils\src\disjoint_set.c.o
+Compiling .pio\build\provision\libb12\utils\src\list.c.o
+Compiling .pio\build\provision\libb12\utils\src\logger.c.o
+Archiving .pio\build\provision\libeb5\libPreferences.a
+Compiling .pio\build\provision\libb12\utils\src\queue.c.o
+Compiling .pio\build\provision\libb12\utils\src\slab.c.o
+Compiling .pio\build\provision\libb12\utils\src\utils.c.o
+Compiling .pio\build\provision\libb12\LibOSDP\osdp_common.c.o
+Compiling .pio\build\provision\libb12\LibOSDP\osdp_cp.c.o
+Compiling .pio\build\provision\libb12\LibOSDP\osdp_file.c.o
+Compiling .pio\build\provision\libb12\LibOSDP\osdp_pd.c.o
+Compiling .pio\build\provision\libb12\LibOSDP\osdp_phy.c.o
+Compiling .pio\build\provision\libb12\LibOSDP\osdp_sc.c.o
+Compiling .pio\build\provision\lib3f9\SPI\SPI.cpp.o
+Archiving .pio\build\provision\libb12\libLibOSDP.a
+Compiling .pio\build\provision\FrameworkArduino\Esp.cpp.o
+Archiving .pio\build\provision\lib3f9\libSPI.a
+Compiling .pio\build\provision\FrameworkArduino\FirmwareMSC.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\FunctionalInterrupt.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\HWCDC.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\HardwareSerial.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\IPAddress.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\IPv6Address.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\MD5Builder.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\Print.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\Stream.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\StreamString.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\Tone.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\USB.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\USBCDC.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\USBMSC.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\WMath.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\WString.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\base64.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\cbuf.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-adc.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-bt.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-cpu.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-dac.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-gpio.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-i2c-slave.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-i2c.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-ledc.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-matrix.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-misc.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-psram.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-rgb-led.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-rmt.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-sigmadelta.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-spi.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-time.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-timer.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-tinyusb.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-touch.c.o
+Compiling .pio\build\provision\FrameworkArduino\esp32-hal-uart.c.o
+Compiling .pio\build\provision\FrameworkArduino\firmware_msc_fat.c.o
+Compiling .pio\build\provision\FrameworkArduino\libb64\cdecode.c.o
+Compiling .pio\build\provision\FrameworkArduino\libb64\cencode.c.o
+Compiling .pio\build\provision\FrameworkArduino\main.cpp.o
+Compiling .pio\build\provision\FrameworkArduino\stdlib_noniso.c.o
+Compiling .pio\build\provision\FrameworkArduino\wiring_pulse.c.o
+Compiling .pio\build\provision\FrameworkArduino\wiring_shift.c.o
+Archiving .pio\build\provision\libFrameworkArduino.a
+Linking .pio\build\provision\firmware.elf
+Retrieving maximum program size .pio\build\provision\firmware.elf
+Checking size .pio\build\provision\firmware.elf
+Advanced Memory Usage is available via "PlatformIO Home > Project Inspect"
+RAM:   [=         ]   6.6% (used 21544 bytes from 327680 bytes)
+Flash: [==        ]  22.9% (used 299937 bytes from 1310720 bytes)
+Building .pio\build\provision\firmware.bin
+esptool.py v4.5.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+========================= [SUCCESS] Took 29.74 seconds =========================
+
+Environment    Status    Duration
+-------------  --------  ------------
+opendual       SUCCESS   00:00:26.734
+wiegand        SUCCESS   00:00:32.200
+standalone     SUCCESS   00:00:28.969
+provision      SUCCESS   00:00:29.741
+========================= 4 succeeded in 00:01:57.644 =========================

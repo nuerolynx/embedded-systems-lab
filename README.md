@@ -8,6 +8,7 @@ Each project stands on its own and includes source code, hardware notes, depende
 
 | Project | Platform | Highlights | Status |
 | --- | --- | --- | --- |
+| [OpenDual Reader](OpenDual-Reader) | ESP32-WROOM-32E | Editable KiCad dual-frequency reader, four compiled firmware builds, enclosure CAD and validation reports | A0 engineering prototype |
 | [RFID access controller](projects/access-control/uno-r4-rfid-access-controller) | Arduino UNO R4 WiFi | RFID, web UI, OLED, door monitoring, PTE and PIR inputs, event log | Prototype |
 | [RFID + BLE door controller](projects/access-control/uno-r4-rfid-ble-door-controller) | Arduino UNO R4 WiFi | RFID authorization, BLE commands and status notifications | Prototype |
 | [Eight-channel relay controller](projects/automation/uno-r4-eight-channel-relay-controller) | Arduino UNO R4 WiFi | Web control, pulse actions, auto-off, daily and one-shot schedules | Prototype |
@@ -17,6 +18,8 @@ Each project stands on its own and includes source code, hardware notes, depende
 | [Bluetooth speaker](projects/audio/esp32-bluetooth-speaker) | ESP32 | A2DP sink, I2S audio output and serial volume control | Prototype |
 
 See [Project status](docs/project-status.md) for scope and limitations.
+
+OpenDual Reader includes its own [KiCad/PlatformIO getting-started guide](OpenDual-Reader/README.md) and [revision roadmap](OpenDual-Reader/docs/two-variant-roadmap.md).
 
 ## Getting started
 
@@ -39,9 +42,11 @@ Read [Hardware safety](docs/hardware-safety.md), [Security policy](SECURITY.md),
 
 ## Repository history
 
-This repository contains the projects selected for public reference. Older experiments, duplicate drafts, generated build artifacts, and deployment-specific values are kept out of it.
+This repository contains the projects selected for public reference. Older experiments, duplicate drafts and deployment-specific values are kept out of it. OpenDual Reader includes clearly identified build artifacts and generated design/validation exports so its preliminary engineering release can be inspected and reproduced.
 
 ## License
 
 No open-source license has been selected yet. All rights are reserved unless a license is added later.
 
+
+OpenDual Reader has separate project licenses: original hardware/CAD/documentation under CC0-1.0 and original firmware under MIT, with third-party notices retained. See [its license files](OpenDual-Reader/LICENSE-HARDWARE.txt).

@@ -1,0 +1,238 @@
+{
+  "gpio_checks": [
+    {
+      "gpio": 1,
+      "module_pad": 35,
+      "expected": "PROG_TX",
+      "actual": "PROG_TX",
+      "pass": true
+    },
+    {
+      "gpio": 3,
+      "module_pad": 34,
+      "expected": "PROG_RX",
+      "actual": "PROG_RX",
+      "pass": true
+    },
+    {
+      "gpio": 26,
+      "module_pad": 11,
+      "expected": "RS485_TX",
+      "actual": "RS485_TX",
+      "pass": true
+    },
+    {
+      "gpio": 27,
+      "module_pad": 12,
+      "expected": "RS485_RX",
+      "actual": "RS485_RX",
+      "pass": true
+    },
+    {
+      "gpio": 4,
+      "module_pad": 26,
+      "expected": "RS485_DIR",
+      "actual": "RS485_DIR",
+      "pass": true
+    },
+    {
+      "gpio": 34,
+      "module_pad": 6,
+      "expected": "LF_RX_3V3",
+      "actual": "LF_RX_3V3",
+      "pass": true
+    },
+    {
+      "gpio": 18,
+      "module_pad": 30,
+      "expected": "HF_SCK",
+      "actual": "HF_SCK",
+      "pass": true
+    },
+    {
+      "gpio": 19,
+      "module_pad": 31,
+      "expected": "HF_MISO",
+      "actual": "HF_MISO",
+      "pass": true
+    },
+    {
+      "gpio": 23,
+      "module_pad": 37,
+      "expected": "HF_MOSI",
+      "actual": "HF_MOSI",
+      "pass": true
+    },
+    {
+      "gpio": 21,
+      "module_pad": 33,
+      "expected": "HF_CS_N",
+      "actual": "HF_CS_N",
+      "pass": true
+    },
+    {
+      "gpio": 22,
+      "module_pad": 36,
+      "expected": "HF_RST_N",
+      "actual": "HF_RST_N",
+      "pass": true
+    },
+    {
+      "gpio": 16,
+      "module_pad": 27,
+      "expected": "WG_D0_GATE",
+      "actual": "WG_D0_GATE",
+      "pass": true
+    },
+    {
+      "gpio": 17,
+      "module_pad": 28,
+      "expected": "WG_D1_GATE",
+      "actual": "WG_D1_GATE",
+      "pass": true
+    },
+    {
+      "gpio": 25,
+      "module_pad": 10,
+      "expected": "LED_R_GATE",
+      "actual": "LED_R_GATE",
+      "pass": true
+    },
+    {
+      "gpio": 33,
+      "module_pad": 9,
+      "expected": "LED_G_GATE",
+      "actual": "LED_G_GATE",
+      "pass": true
+    },
+    {
+      "gpio": 13,
+      "module_pad": 16,
+      "expected": "LED_B_GATE",
+      "actual": "LED_B_GATE",
+      "pass": true
+    },
+    {
+      "gpio": 14,
+      "module_pad": 13,
+      "expected": "BUZZER_GATE",
+      "actual": "BUZZER_GATE",
+      "pass": true
+    },
+    {
+      "gpio": 32,
+      "module_pad": 8,
+      "expected": "RELAY_EN",
+      "actual": "RELAY_EN",
+      "pass": true
+    },
+    {
+      "gpio": 36,
+      "module_pad": 4,
+      "expected": "TAMPER_N",
+      "actual": "TAMPER_N",
+      "pass": true
+    }
+  ],
+  "gpio_all_pass": true,
+  "schematic_pcb_pads_checked": 233,
+  "intentional_no_connect_pads": [
+    [
+      "U3",
+      "24",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U3",
+      "29",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U3",
+      "14",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U3",
+      "23",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U3",
+      "7",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U3",
+      "5",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U3",
+      "17",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U3",
+      "18",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U3",
+      "19",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U3",
+      "20",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U3",
+      "21",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U3",
+      "22",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U3",
+      "32",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U4",
+      "3",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U4",
+      "4",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U4",
+      "6",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U4",
+      "5",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U4",
+      "8",
+      "Schematic NC marker / PCB unique isolated net"
+    ],
+    [
+      "U4",
+      "10",
+      "Schematic NC marker / PCB unique isolated net"
+    ]
+  ],
+  "schematic_pcb_mismatches": [],
+  "all_pass": true
+}

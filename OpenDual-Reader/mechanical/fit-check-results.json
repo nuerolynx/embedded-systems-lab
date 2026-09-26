@@ -1,0 +1,45 @@
+{
+  "status": "FIT STUDY ONLY; MANUFACTURING TOLERANCE STACK UNRESOLVED",
+  "verification": "Analytic dimensions and rectangular body projections only. Separate OpenSCAD 2021.01 front/back STL exports compiled on 2026-09-26; this script does not validate their solid geometry or assembly fit.",
+  "external_mm": {
+    "height": 131.2,
+    "width": 40.7,
+    "depth": 17.6
+  },
+  "pcb_mm": {
+    "height": 124.0,
+    "width": 36.0,
+    "thickness": 1.6
+  },
+  "side_clearance_mm": 0.55,
+  "end_clearance_mm": 1.8,
+  "regulator_max_height_mm": 10.6,
+  "regulator_unpocketed_clearance_mm": 0.0,
+  "regulator_clearance_with_0_4_pocket_mm": 0.4,
+  "remaining_front_thickness_above_pocket_mm": 1.0,
+  "buzzer_nominal_clearance_with_0_5_pocket_mm": 0.6,
+  "remaining_rear_thickness_below_pocket_mm": 1.5,
+  "LF_nominal_untrimmed_pin_clearance_mm": -0.3,
+  "LF_worst_bound_untrimmed_pin_clearance_mm": -1.1,
+  "LF_pin_clearance_after_1mm_protrusion_trim_mm": 1.0,
+  "LF_HF_body_edge_gap_mm": 10.05,
+  "LF_HF_module_body_edge_gap_mm": 0.85,
+  "LF_nearest_mount_center_to_body_mm": 4.302,
+  "LF_nearest_5_4mm_pillar_to_body_mm": 1.602,
+  "front_body_projection_collisions": [],
+  "not_checked": [
+    "complete assembly solid-interference analysis",
+    "solder joints and headers",
+    "complete actual PCB population",
+    "RF keepout suitability",
+    "assembly tolerances",
+    "manufacturing variation",
+    "cable bend radius",
+    "strain relief",
+    "fastener thread strength",
+    "tamper actuator",
+    "thermal performance",
+    "sound level",
+    "physical fit"
+  ]
+}

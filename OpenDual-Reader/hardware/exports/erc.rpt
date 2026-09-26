@@ -1,0 +1,22 @@
+ERC report (2026-09-26T14:40:55, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /
+
+***** Sheet /01 / POWER AND PROTECTION/
+
+***** Sheet /02 / ESP32 AND SERVICE/
+
+***** Sheet /03 / LF AND HF MODULES/
+
+***** Sheet /04 / OSDP AND WIEGAND/
+
+***** Sheet /05 / STATUS, TAMPER, EXPANSION/
+
+ ** ERC messages: 0  Errors 0  Warnings 0
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

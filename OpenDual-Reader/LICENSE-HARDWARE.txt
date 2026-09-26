@@ -1,0 +1,2 @@
+Original OpenDual Reader hardware, mechanical CAD and documentation contributions are dedicated to the public domain under CC0 1.0 Universal. https://creativecommons.org/publicdomain/zero/1.0/
+This dedication does not relicense copied KiCad assets, vendor documentation, software or third-party libraries. No warranty is made; this engineering prototype is not a fabrication release.
